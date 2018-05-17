@@ -1,7 +1,10 @@
 import logging
 from decimal import Decimal
 
-from exceptions import ProbabilityRatesException
+import trafaret as t
+from trafaret import Dict
+
+from exceptions import ProbabilityRatesException, OutcomesValidationException
 
 
 class Expert:
@@ -28,6 +31,19 @@ class Expert:
 
         self.log = logging.getLogger(type(self).__name__)
         self._check_rate_range()
+        self._validate_outcome_dicts()
+
+    def _check_rate_range(self) -> None:
+        """The probably_no_rate and probably_rate variables must be in range
+        (-rate_gradation; rate_gradation) and can not be ultimate
+        """
+        if self.probably_no_rate not in range(-self.rate_gradation + 1, 0) \
+                or self.probably_rate not in range(1, self.rate_gradation):
+            raise ProbabilityRatesException(
+                'One of the following variables not in range ({minus_rate_gradation};{rate_gradation}): '
+                'probably_no_rate, probably_rate'.format(
+                    minus_rate_gradation=-self.rate_gradation, rate_gradation=self.rate_gradation))
+        self.log.debug('Probability rate ranges are OK')
 
     @staticmethod
     def calculate_answer_no(p: Decimal, p_y: Decimal, p_n: Decimal) -> Decimal():
@@ -61,17 +77,6 @@ class Expert:
         """
         return p + ((p_y * p) / (p_y * p + p_n * (1 - p)) - p) * self.probably_rate / self.rate_gradation
 
-    def _check_rate_range(self):
-        """The probably_no_rate and probably_rate variables must be in range
-        (-rate_gradation; rate_gradation) and can not be ultimate
-        """
-        if self.probably_no_rate not in range(-self.rate_gradation + 1, 0) \
-                or self.probably_rate not in range(1, self.rate_gradation):
-            raise ProbabilityRatesException(
-                'One of the following variables not in range ({minus_rate_gradation};{rate_gradation}): '
-                'probably_no_rate, probably_rate'.format(
-                    minus_rate_gradation=-self.rate_gradation, rate_gradation=self.rate_gradation))
-
     @staticmethod
     def calculate_answer_yes(p: Decimal, p_y: Decimal, p_n: Decimal) -> Decimal():
         """For more information look at the "calculate_answer_no" method documentation
@@ -87,11 +92,42 @@ class Expert:
         :return: a posteriori probability of current assumption,
         a conditional probability in presence and a conditional probability in absence
         """
-        # TODO: add a _validate_outcome_dict() method using trafaret
         p = Decimal(outcome['priori_probability'])
         p_y = Decimal(outcome['questions_estimation'][question_number]['probability_in_presence'])
         p_n = Decimal(outcome['questions_estimation'][question_number]['probability_in_absence'])
         return p, p_y, p_n
 
-    def outcomes_validator(self):
-        pass
+    def _validate_outcome_dicts(self) -> None:
+        template = Dict({
+            t.Key('id'): t.Int,
+            t.Key('producer'): t.String,
+            t.Key('model'): t.String,
+            t.Key('image_path'): t.String(allow_blank=True),
+            t.Key('description'): t.String(allow_blank=True),
+            t.Key('priori_probability'): t.Float,
+            t.Key('questions_estimation'): Dict({
+                t.Key(1): Dict({
+                    t.Key('probability_in_presence'): t.Float,
+                    t.Key('probability_in_absence'): t.Float,
+                }),
+            }).allow_extra('*'),
+        })
+
+        if not isinstance(self.outcomes, list):
+            raise TypeError('The outcomes variable must be a list instance')
+
+        number_of_products = len(self.outcomes)
+
+        for current_product_number, outcome in enumerate(self.outcomes, 1):
+            try:
+                template.check(outcome)
+            except t.DataError as error:
+                self.log.error('Validation error occurred: {err_msg}'.format(err_msg=error))
+                raise OutcomesValidationException('Validation error occurred: {}'.format(error))
+            else:
+                self.log.debug('({}/{}) outcome dictionaries checked.'.format(
+                    current_product_number, number_of_products))
+        self.log.debug('Outcome dictionaries are OK')
+
+    def get_result(self) -> dict:
+        return max(self.outcomes, key=lambda x: x['priori_probability'])
