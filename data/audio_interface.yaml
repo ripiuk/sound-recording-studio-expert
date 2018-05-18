@@ -1,0 +1,63 @@
+questions: [
+  'Вам потрібна компактна звукова карта?',
+  'Вам потрібна дешева звукова карта?',
+  'Ви будете записувати більше 2-х інструментів одночачно?'
+]
+
+outcomes: [
+  {
+    id: 1,
+    producer: Focusrite,
+    model: Scarlett Solo 2nd Gen,
+    image_path: null,
+    description: "Надійний і доступний аудіоінтерфейс Focusrite Scarlett Solo 2nd Gen стане для вас
+                  гарним помічником у записуванні музики. Модель має мікрофонний вхід XLR, щоб
+                  приєднати мікрофон, і другий — TRS, для електрогітари. У розпорядженні користувача
+                  на передній частині панелі є кнопка ввімкнення фантомного живлення,
+                  стереовхід на навушники (є можливість прямого моніторингу), керування гучністю.
+                  На задній частині розташувалися: 2 RCA виходи для приєднання моніторів.
+                  Компактний корпус з алюмінію і USB-шина дадуть змогу брати пристрій куди завгодно.",
+    priori_probability: 0.5,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.7,
+        probability_in_absence: 0.38
+      },
+      2: {
+        probability_in_presence: 0.4,
+        probability_in_absence: 0.19
+      },
+      3: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.2
+      }
+    }
+  },
+  {
+    id: 2,
+    producer: Behringer,
+    model: UCG102,
+    image_path: null,
+    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
+                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
+                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
+                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
+                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
+                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
+    priori_probability: 0.5,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.4
+      },
+      2: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.3
+      },
+      3: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.01
+      }
+    }
+  }
+]

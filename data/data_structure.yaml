@@ -1,0 +1,25 @@
+questions: [
+  'First question?',
+  'Second question?',
+]
+
+outcomes: [
+  {
+    id: 1,
+    producer: Producer name,
+    model: Model name,
+    image_path: null,
+    description: Some description,
+    priori_probability: 0.5,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.7,
+        probability_in_absence: 0.01
+      },
+      2: {
+        probability_in_presence: 0.7,
+        probability_in_absence: 0.01
+      }
+    }
+  },
+]
