@@ -6,7 +6,7 @@ import trafaret as t
 from trafaret import Dict
 
 from data import load_data
-from exceptions import ProbabilityRatesException, OutcomesValidationException, RangeException
+from experts.exceptions import ProbabilityRatesException, OutcomesValidationException, RangeException
 
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
