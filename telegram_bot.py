@@ -57,7 +57,6 @@ class ExpertBotHandler:
         get_result = self.get_updates()
         if not get_result:
             return None, None, None
-        # TODO: Take not only the last update
         last_update = get_result[-1]
         return self._parse_update_message(last_update)
 
@@ -127,98 +126,99 @@ def main():
 
     while True:
         expert_bot.get_updates(new_offset)
-        last_update_id, last_chat_text, last_chat_id = expert_bot.get_last_update()
-        if not last_update_id:
-            # Update response is empty
-            continue
-        current_language = chat_language_for_user.get(last_chat_id, default_language_id)
-        is_current_user_in_quiz = current_step_for_user.get(last_chat_id, dict()).get(
-            'current_step') or current_step_for_user.get(last_chat_id, dict()).get('current_step') == 0
+        for update in expert_bot.get_updates():
+            last_update_id, last_chat_text, last_chat_id = expert_bot._parse_update_message(update)
+            if not last_update_id:
+                # Update response is empty
+                continue
+            current_language = chat_language_for_user.get(last_chat_id, default_language_id)
+            is_current_user_in_quiz = current_step_for_user.get(last_chat_id, dict()).get(
+                'current_step') or current_step_for_user.get(last_chat_id, dict()).get('current_step') == 0
 
-        if is_current_user_in_quiz:
-            if last_chat_text in list_of_answers[current_language]:
-                question_number = current_step_for_user[last_chat_id]['current_step']
-                expert_system = current_step_for_user[last_chat_id]['expert_class']
-                number_of_questions = len(expert_system.questions)
+            if is_current_user_in_quiz:
+                if last_chat_text in list_of_answers[current_language]:
+                    question_number = current_step_for_user[last_chat_id]['current_step']
+                    expert_system = current_step_for_user[last_chat_id]['expert_class']
+                    number_of_questions = len(expert_system.questions)
 
-                if last_chat_text == list_of_answers[current_language][0]:
-                    expert_system.handle_answer(question_number, 0)
-                    question_number += 1
-                elif last_chat_text == list_of_answers[current_language][1]:
-                    expert_system.handle_answer(question_number, 1)
-                    question_number += 1
-                elif last_chat_text == list_of_answers[current_language][2]:
-                    question_number += 1
-                elif last_chat_text == list_of_answers[current_language][3]:
-                    expert_system.handle_answer(question_number, 3)
-                    question_number += 1
-                elif last_chat_text == list_of_answers[current_language][4]:
-                    expert_system.handle_answer(question_number, 4)
-                    question_number += 1
+                    if last_chat_text == list_of_answers[current_language][0]:
+                        expert_system.handle_answer(question_number, 0)
+                        question_number += 1
+                    elif last_chat_text == list_of_answers[current_language][1]:
+                        expert_system.handle_answer(question_number, 1)
+                        question_number += 1
+                    elif last_chat_text == list_of_answers[current_language][2]:
+                        question_number += 1
+                    elif last_chat_text == list_of_answers[current_language][3]:
+                        expert_system.handle_answer(question_number, 3)
+                        question_number += 1
+                    elif last_chat_text == list_of_answers[current_language][4]:
+                        expert_system.handle_answer(question_number, 4)
+                        question_number += 1
 
-                if question_number >= number_of_questions:
-                    result = expert_system.get_result()
-                    expert_bot.send_message(
-                        last_chat_id, f"Result:\nProducer: {result.get('producer')}\nModel: {result.get('model')}\n",
-                        reply_markup=expert_bot.remove_keyboards())
+                    if question_number >= number_of_questions:
+                        result = expert_system.get_result()
+                        expert_bot.send_message(
+                            last_chat_id, f"Result:\nProducer: {result.get('producer')}\nModel: {result.get('model')}\n",
+                            reply_markup=expert_bot.remove_keyboards())
+                        del current_step_for_user[last_chat_id]
+                    else:
+                        current_step_for_user[last_chat_id]['current_step'] = question_number
+
+                        keyboard = expert_bot.build_keyboard(list_of_answers[current_language])
+                        expert_bot.send_message(chat_id=last_chat_id,
+                                                text=f'{question_number_prefix[current_language]}'
+                                                     f'({question_number + 1}/{number_of_questions})\n'
+                                                     f'*{expert_system.questions[question_number]}*\n\n'
+                                                     f'{stop_text[current_language]}',
+                                                reply_markup=keyboard)
+
+                elif last_chat_text == '/stop':
                     del current_step_for_user[last_chat_id]
-                else:
-                    current_step_for_user[last_chat_id]['current_step'] = question_number
-
-                    keyboard = expert_bot.build_keyboard(list_of_answers[current_language])
                     expert_bot.send_message(chat_id=last_chat_id,
-                                            text=f'{question_number_prefix[current_language]}'
-                                                 f'({question_number + 1}/{number_of_questions})\n'
-                                                 f'*{expert_system.questions[question_number]}*\n\n'
-                                                 f'{stop_text[current_language]}',
-                                            reply_markup=keyboard)
+                                            text=done_message[current_language],
+                                            reply_markup=expert_bot.remove_keyboards())
 
-            elif last_chat_text == '/stop':
-                del current_step_for_user[last_chat_id]
-                expert_bot.send_message(chat_id=last_chat_id,
-                                        text=done_message[current_language],
+            elif last_chat_text == '/start':
+                expert_bot.send_message(last_chat_id, start_text[current_language],
                                         reply_markup=expert_bot.remove_keyboards())
 
-        elif last_chat_text == '/start':
-            expert_bot.send_message(last_chat_id, start_text[current_language],
-                                    reply_markup=expert_bot.remove_keyboards())
+            elif last_chat_text == '/menu':
+                keyboard = expert_bot.build_keyboard(list(equipments[current_language].keys()))
+                expert_bot.send_message(last_chat_id, menu_text[current_language], reply_markup=keyboard)
 
-        elif last_chat_text == '/menu':
-            keyboard = expert_bot.build_keyboard(list(equipments[current_language].keys()))
-            expert_bot.send_message(last_chat_id, menu_text[current_language], reply_markup=keyboard)
+            elif last_chat_text == '/help':
+                expert_bot.send_message(
+                    chat_id=last_chat_id, text='\n'.join(help_text[current_language]),
+                    reply_markup=expert_bot.remove_keyboards())
 
-        elif last_chat_text == '/help':
-            expert_bot.send_message(
-                chat_id=last_chat_id, text='\n'.join(help_text[current_language]),
-                reply_markup=expert_bot.remove_keyboards())
+            elif last_chat_text == '/settings':
+                keyboard = expert_bot.build_keyboard(list(languages.keys()))
+                expert_bot.send_message(last_chat_id, settings_text[current_language], reply_markup=keyboard)
 
-        elif last_chat_text == '/settings':
-            keyboard = expert_bot.build_keyboard(list(languages.keys()))
-            expert_bot.send_message(last_chat_id, settings_text[current_language], reply_markup=keyboard)
+            elif last_chat_text in languages:
+                chat_language_for_user[last_chat_id] = languages.get(last_chat_text, default_language_id)
+                expert_bot.send_message(last_chat_id, done_message[chat_language_for_user[last_chat_id]],
+                                        reply_markup=expert_bot.remove_keyboards())
 
-        elif last_chat_text in languages:
-            chat_language_for_user[last_chat_id] = languages.get(last_chat_text, default_language_id)
-            expert_bot.send_message(last_chat_id, done_message[chat_language_for_user[last_chat_id]],
-                                    reply_markup=expert_bot.remove_keyboards())
+            elif last_chat_text in equipments[current_language]:
+                chosen_class = equipments[current_language][last_chat_text]
+                expert_system = chosen_class()
+                current_step_for_user[last_chat_id] = dict(expert_class=expert_system, current_step=0)
 
-        elif last_chat_text in equipments[current_language]:
-            chosen_class = equipments[current_language][last_chat_text]
-            expert_system = chosen_class()
-            current_step_for_user[last_chat_id] = dict(expert_class=expert_system, current_step=0)
+                # Send first question to user
+                # TODO: remove it from here
+                number_of_questions = len(expert_system.questions)
+                question_number = 0
+                keyboard = expert_bot.build_keyboard(list_of_answers[current_language])
+                expert_bot.send_message(chat_id=last_chat_id,
+                                        text=f'{question_number_prefix[current_language]}'
+                                             f'({question_number + 1}/{number_of_questions})\n'
+                                             f'*{expert_system.questions[question_number]}*\n\n'
+                                             f'{stop_text[current_language]}',
+                                        reply_markup=keyboard)
 
-            # Send first question to user
-            # TODO: remove it from here
-            number_of_questions = len(expert_system.questions)
-            question_number = 0
-            keyboard = expert_bot.build_keyboard(list_of_answers[current_language])
-            expert_bot.send_message(chat_id=last_chat_id,
-                                    text=f'{question_number_prefix[current_language]}'
-                                         f'({question_number + 1}/{number_of_questions})\n'
-                                         f'*{expert_system.questions[question_number]}*\n\n'
-                                         f'{stop_text[current_language]}',
-                                    reply_markup=keyboard)
-
-        new_offset = last_update_id + 1
+            new_offset = last_update_id + 1
 
 
 if __name__ == '__main__':
