@@ -86,21 +86,9 @@ def main():
                     expert_system = current_step_for_user[last_chat_id]['expert_class']
                     number_of_questions = len(expert_system.questions)
 
-                    if last_chat_text == LIST_OF_ANSWERS[current_language_id][0]:
-                        # No
-                        expert_system.handle_answer(question_number, 0)
-                    elif last_chat_text == LIST_OF_ANSWERS[current_language_id][1]:
-                        # Probably no
-                        expert_system.handle_answer(question_number, 1)
-                    elif last_chat_text == LIST_OF_ANSWERS[current_language_id][2]:
-                        # Do not know
-                        pass
-                    elif last_chat_text == LIST_OF_ANSWERS[current_language_id][3]:
-                        # Probably
-                        expert_system.handle_answer(question_number, 3)
-                    elif last_chat_text == LIST_OF_ANSWERS[current_language_id][4]:
-                        # Yes
-                        expert_system.handle_answer(question_number, 4)
+                    # Calculate probabilities
+                    answer_id = LIST_OF_ANSWERS[current_language_id].index(last_chat_text)
+                    expert_system.handle_answer(question_number, answer_id)
 
                     question_number += 1
 

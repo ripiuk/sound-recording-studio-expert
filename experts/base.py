@@ -108,7 +108,7 @@ class Expert:
                                            (1 - p))) * self.probably_no_rate / self.rate_gradation
 
     @staticmethod
-    def _calculate_answer_do_not_know(p: Decimal) -> Decimal():
+    def _calculate_answer_do_not_know(p: Decimal, p_y: Decimal, p_n: Decimal) -> Decimal():
         """If user will answer "I don't know" we should not make any calculations
 
         :param p: a posteriori probability of current assumption
