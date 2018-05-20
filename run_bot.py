@@ -2,7 +2,7 @@ import misc
 from expert_bot import ExpertBotHandler
 from experts import AudioInterface, Soundproofing
 
-EQUIPMENTS = [{
+EQUIPMENTS = ({
         'Аудіо інтерфейс': AudioInterface,
         'Шумоізоляція': Soundproofing,
         'Мікрофон': None,
@@ -14,28 +14,28 @@ EQUIPMENTS = [{
         'Microphone': None,
         'Studio monitor': None,
         'Mixing console': None
-    }]
-LIST_OF_ANSWERS = [['Ні', 'Швидше за все - ні', 'Не знаю', 'Швидше за все - так', 'Так'],
-                   ['No', 'Probably no', 'Don\'t know', 'Probably', 'Yes']]
-START_TEXT = ['Щоб обрати категорію введіть команду: /menu', 'To select a category, enter the command: /menu']
-STOP_TEXT = ['_Щоб вийти з данного опитування введіть команду:_ /stop',
-             '_To exit this survey, enter the following command:_ /stop']
-MENU_TEXT = ['Оберіть звукозаписуюче обладнання', 'Choose a type of sound recording equipment']
-HELP_TEXT = [['MusicStudioExpertBot допоможе вам з укомплектуванням домашньої студії звукозапису. '
+    })
+LIST_OF_ANSWERS = (('Ні', 'Швидше за все - ні', 'Не знаю', 'Швидше за все - так', 'Так'),
+                   ('No', 'Probably no', 'Don\'t know', 'Probably', 'Yes'))
+START_TEXT = ('Щоб обрати категорію введіть команду: /menu', 'To select a category, enter the command: /menu')
+STOP_TEXT = ('_Щоб вийти з данного опитування введіть команду:_ /stop',
+             '_To exit this survey, enter the following command:_ /stop')
+MENU_TEXT = ('Оберіть звукозаписуюче обладнання', 'Choose a type of sound recording equipment')
+HELP_TEXT = (('MusicStudioExpertBot допоможе вам з укомплектуванням домашньої студії звукозапису. '
               'Вам лише необхідно відповісти на поставленні питання.',
               'Щоб обрати категорію введіть команду: /menu',
               'Також данний бот підтримує наступні команди: /start /help /settings',
-              '\n\n[GitHub source](https://github.com/ripiuk)'],
-             ['MusicStudioExpertBot is a bot, that can help you to provide a home sound recording studio.',
+              '\n\n[GitHub source](https://github.com/ripiuk)'),
+             ('MusicStudioExpertBot is a bot, that can help you to provide a home sound recording studio.',
               'To choose a category from menu - use this command: /menu',
               'Also, this bot supports the following commands: /start /help /settings',
-              '\n\n[GitHub source](https://github.com/ripiuk)']]
-SETTINGS_TEXT = ['Оберіть мову (лише для навігації)',
-                 'Here you can choose a language that you prefer (for navigation only)']
-NOT_AVAILABLE_TEXT = ['Ви не можете використовувати команди під час опитування.',
-                      'All commands are not available during the quiz.']
-QUESTION_NUMBER_PREFIX = ['Поточне питання: ', 'Current question: ']
-DONE_MESSAGE = ['Готово', 'Done']
+              '\n\n[GitHub source](https://github.com/ripiuk)'))
+SETTINGS_TEXT = ('Оберіть мову (лише для навігації)',
+                 'Here you can choose a language that you prefer (for navigation only)')
+NOT_AVAILABLE_TEXT = ('Ви не можете використовувати команди під час опитування.',
+                      'All commands are not available during the quiz.')
+QUESTION_NUMBER_PREFIX = ('Поточне питання: ', 'Current question: ')
+DONE_MESSAGE = ('Готово', 'Done')
 LANGUAGES = {'🇺🇦UA': 0, '🇺🇸US': 1}
 DEFAULT_LANGUAGE_ID = 0  # UA
 
