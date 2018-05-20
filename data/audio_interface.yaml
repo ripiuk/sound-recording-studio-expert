@@ -1,7 +1,12 @@
 questions: [
   'Вам потрібна компактна звукова карта?',
   'Вам потрібна дешева звукова карта?',
-  'Ви будете записувати більше 2-х інструментів одночачно?'
+  'Вам потрібен XLR інтерфейс (для мікрофона)?',
+  'Ви будете записувати більше 2-х інструментів одночачно?',
+  'Вам потрібен USB інтерфейс?',
+  'Розрядність ЦАП повинна бути більше 16 біт?',
+  'Вам потрібен вихід на навушники?',
+  'Вам потрібна тривала офіційна гарантія?'
 ]
 
 outcomes: [
@@ -29,7 +34,27 @@ outcomes: [
       },
       3: {
         probability_in_presence: 0.9,
-        probability_in_absence: 0.2
+        probability_in_absence: 0.45
+      },
+      4: {
+        probability_in_presence: 0.93,
+        probability_in_absence: 0.22
+      },
+      5: {
+        probability_in_presence: 0.97,
+        probability_in_absence: 0.47
+      },
+      6: {
+        probability_in_presence: 0.96,
+        probability_in_absence: 0.23
+      },
+      7: {
+        probability_in_presence: 0.96,
+        probability_in_absence: 0.53
+      },
+      8: {
+        probability_in_presence: 0.34,
+        probability_in_absence: 0.75
       }
     }
   },
@@ -56,7 +81,685 @@ outcomes: [
       },
       3: {
         probability_in_presence: 0.01,
-        probability_in_absence: 0.01
+        probability_in_absence: 0.56
+      },
+      4: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.8
+      },
+      5: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.68
+      },
+      6: {
+        probability_in_presence: 0.001,
+        probability_in_absence: 0.94
+      },
+      7: {
+        probability_in_presence: 0.68,
+        probability_in_absence: 0.34
+      },
+      8: {
+        probability_in_presence: 0.95,
+        probability_in_absence: 0.18
+      }
+    }
+  },
+  {
+    id: 3,
+    producer: Behringer,
+    model: UCG102,
+    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
+    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
+                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
+                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
+                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
+                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
+                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
+    priori_probability: 0.5,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.4
+      },
+      2: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.3
+      },
+      3: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.56
+      },
+      4: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.8
+      },
+      5: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.68
+      },
+      6: {
+        probability_in_presence: 0.001,
+        probability_in_absence: 0.94
+      },
+      7: {
+        probability_in_presence: 0.68,
+        probability_in_absence: 0.34
+      },
+      8: {
+        probability_in_presence: 0.95,
+        probability_in_absence: 0.18
+      }
+    }
+  },
+  {
+    id: 4,
+    producer: Behringer,
+    model: UCG102,
+    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
+    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
+                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
+                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
+                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
+                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
+                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
+    priori_probability: 0.5,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.4
+      },
+      2: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.3
+      },
+      3: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.56
+      },
+      4: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.8
+      },
+      5: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.68
+      },
+      6: {
+        probability_in_presence: 0.001,
+        probability_in_absence: 0.94
+      },
+      7: {
+        probability_in_presence: 0.68,
+        probability_in_absence: 0.34
+      },
+      8: {
+        probability_in_presence: 0.95,
+        probability_in_absence: 0.18
+      }
+    }
+  },
+  {
+    id: 5,
+    producer: Behringer,
+    model: UCG102,
+    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
+    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
+                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
+                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
+                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
+                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
+                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
+    priori_probability: 0.5,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.4
+      },
+      2: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.3
+      },
+      3: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.56
+      },
+      4: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.8
+      },
+      5: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.68
+      },
+      6: {
+        probability_in_presence: 0.001,
+        probability_in_absence: 0.94
+      },
+      7: {
+        probability_in_presence: 0.68,
+        probability_in_absence: 0.34
+      },
+      8: {
+        probability_in_presence: 0.95,
+        probability_in_absence: 0.18
+      }
+    }
+  },
+  {
+    id: 6,
+    producer: Behringer,
+    model: UCG102,
+    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
+    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
+                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
+                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
+                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
+                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
+                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
+    priori_probability: 0.5,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.4
+      },
+      2: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.3
+      },
+      3: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.56
+      },
+      4: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.8
+      },
+      5: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.68
+      },
+      6: {
+        probability_in_presence: 0.001,
+        probability_in_absence: 0.94
+      },
+      7: {
+        probability_in_presence: 0.68,
+        probability_in_absence: 0.34
+      },
+      8: {
+        probability_in_presence: 0.95,
+        probability_in_absence: 0.18
+      }
+    }
+  },
+  {
+    id: 7,
+    producer: Behringer,
+    model: UCG102,
+    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
+    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
+                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
+                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
+                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
+                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
+                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
+    priori_probability: 0.5,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.4
+      },
+      2: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.3
+      },
+      3: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.56
+      },
+      4: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.8
+      },
+      5: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.68
+      },
+      6: {
+        probability_in_presence: 0.001,
+        probability_in_absence: 0.94
+      },
+      7: {
+        probability_in_presence: 0.68,
+        probability_in_absence: 0.34
+      },
+      8: {
+        probability_in_presence: 0.95,
+        probability_in_absence: 0.18
+      }
+    }
+  },
+  {
+    id: 8,
+    producer: Behringer,
+    model: UCG102,
+    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
+    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
+                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
+                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
+                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
+                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
+                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
+    priori_probability: 0.5,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.4
+      },
+      2: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.3
+      },
+      3: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.56
+      },
+      4: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.8
+      },
+      5: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.68
+      },
+      6: {
+        probability_in_presence: 0.001,
+        probability_in_absence: 0.94
+      },
+      7: {
+        probability_in_presence: 0.68,
+        probability_in_absence: 0.34
+      },
+      8: {
+        probability_in_presence: 0.95,
+        probability_in_absence: 0.18
+      }
+    }
+  },
+  {
+    id: 9,
+    producer: Behringer,
+    model: UCG102,
+    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
+    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
+                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
+                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
+                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
+                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
+                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
+    priori_probability: 0.5,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.4
+      },
+      2: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.3
+      },
+      3: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.56
+      },
+      4: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.8
+      },
+      5: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.68
+      },
+      6: {
+        probability_in_presence: 0.001,
+        probability_in_absence: 0.94
+      },
+      7: {
+        probability_in_presence: 0.68,
+        probability_in_absence: 0.34
+      },
+      8: {
+        probability_in_presence: 0.95,
+        probability_in_absence: 0.18
+      }
+    }
+  },
+  {
+    id: 10,
+    producer: Behringer,
+    model: UCG102,
+    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
+    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
+                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
+                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
+                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
+                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
+                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
+    priori_probability: 0.5,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.4
+      },
+      2: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.3
+      },
+      3: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.56
+      },
+      4: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.8
+      },
+      5: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.68
+      },
+      6: {
+        probability_in_presence: 0.001,
+        probability_in_absence: 0.94
+      },
+      7: {
+        probability_in_presence: 0.68,
+        probability_in_absence: 0.34
+      },
+      8: {
+        probability_in_presence: 0.95,
+        probability_in_absence: 0.18
+      }
+    }
+  },
+  {
+    id: 11,
+    producer: Behringer,
+    model: UCG102,
+    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
+    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
+                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
+                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
+                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
+                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
+                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
+    priori_probability: 0.5,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.4
+      },
+      2: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.3
+      },
+      3: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.56
+      },
+      4: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.8
+      },
+      5: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.68
+      },
+      6: {
+        probability_in_presence: 0.001,
+        probability_in_absence: 0.94
+      },
+      7: {
+        probability_in_presence: 0.68,
+        probability_in_absence: 0.34
+      },
+      8: {
+        probability_in_presence: 0.95,
+        probability_in_absence: 0.18
+      }
+    }
+  },
+  {
+    id: 12,
+    producer: Behringer,
+    model: UCG102,
+    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
+    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
+                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
+                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
+                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
+                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
+                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
+    priori_probability: 0.5,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.4
+      },
+      2: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.3
+      },
+      3: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.56
+      },
+      4: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.8
+      },
+      5: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.68
+      },
+      6: {
+        probability_in_presence: 0.001,
+        probability_in_absence: 0.94
+      },
+      7: {
+        probability_in_presence: 0.68,
+        probability_in_absence: 0.34
+      },
+      8: {
+        probability_in_presence: 0.95,
+        probability_in_absence: 0.18
+      }
+    }
+  },
+  {
+    id: 13,
+    producer: Behringer,
+    model: UCG102,
+    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
+    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
+                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
+                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
+                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
+                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
+                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
+    priori_probability: 0.5,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.4
+      },
+      2: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.3
+      },
+      3: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.56
+      },
+      4: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.8
+      },
+      5: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.68
+      },
+      6: {
+        probability_in_presence: 0.001,
+        probability_in_absence: 0.94
+      },
+      7: {
+        probability_in_presence: 0.68,
+        probability_in_absence: 0.34
+      },
+      8: {
+        probability_in_presence: 0.95,
+        probability_in_absence: 0.18
+      }
+    }
+  },
+  {
+    id: 14,
+    producer: Behringer,
+    model: UCG102,
+    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
+    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
+                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
+                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
+                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
+                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
+                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
+    priori_probability: 0.5,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.4
+      },
+      2: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.3
+      },
+      3: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.56
+      },
+      4: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.8
+      },
+      5: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.68
+      },
+      6: {
+        probability_in_presence: 0.001,
+        probability_in_absence: 0.94
+      },
+      7: {
+        probability_in_presence: 0.68,
+        probability_in_absence: 0.34
+      },
+      8: {
+        probability_in_presence: 0.95,
+        probability_in_absence: 0.18
+      }
+    }
+  },
+  {
+    id: 15,
+    producer: Behringer,
+    model: UCG102,
+    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
+    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
+                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
+                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
+                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
+                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
+                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
+    priori_probability: 0.5,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.4
+      },
+      2: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.3
+      },
+      3: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.56
+      },
+      4: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.8
+      },
+      5: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.68
+      },
+      6: {
+        probability_in_presence: 0.001,
+        probability_in_absence: 0.94
+      },
+      7: {
+        probability_in_presence: 0.68,
+        probability_in_absence: 0.34
+      },
+      8: {
+        probability_in_presence: 0.95,
+        probability_in_absence: 0.18
+      }
+    }
+  },
+  {
+    id: 16,
+    producer: Behringer,
+    model: UCG102,
+    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
+    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
+                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
+                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
+                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
+                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
+                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
+    priori_probability: 0.5,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.4
+      },
+      2: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.3
+      },
+      3: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.56
+      },
+      4: {
+        probability_in_presence: 0.01,
+        probability_in_absence: 0.8
+      },
+      5: {
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.68
+      },
+      6: {
+        probability_in_presence: 0.001,
+        probability_in_absence: 0.94
+      },
+      7: {
+        probability_in_presence: 0.68,
+        probability_in_absence: 0.34
+      },
+      8: {
+        probability_in_presence: 0.95,
+        probability_in_absence: 0.18
       }
     }
   }
