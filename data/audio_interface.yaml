@@ -22,7 +22,7 @@ outcomes: [
                   стереовхід на навушники (є можливість прямого моніторингу), керування гучністю.
                   На задній частині розташувалися: 2 RCA виходи для приєднання моніторів.
                   Компактний корпус з алюмінію і USB-шина дадуть змогу брати пристрій куди завгодно.",
-    priori_probability: 0.5,
+    priori_probability: 0.065,
     questions_estimation: {
       1: {
         probability_in_presence: 0.7,
@@ -69,7 +69,7 @@ outcomes: [
                   у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
                   Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
                   аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
-    priori_probability: 0.5,
+    priori_probability: 0.065,
     questions_estimation: {
       1: {
         probability_in_presence: 0.9,
@@ -107,189 +107,188 @@ outcomes: [
   },
   {
     id: 3,
-    producer: Behringer,
-    model: UCG102,
-    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
-    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
-                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
-                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
-                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
-                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
-                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
-    priori_probability: 0.5,
+    producer: PreSonus,
+    model: AudioBox USB 96,
+    image_id: null,
+    description: "оновлена версія популярного інтерфейсу PreSonus AudioBox USB, тепер на шині USB 2.0 і частотою
+                  дискретизації до 96 кГц. Аудіоінтерфейс AudioBox USB 96 це стартове рішення, за невеликі гроші,
+                  для домашньої студії, записування подкастів, звукозапису в дорозі. Інтерфейс PreSonus AudioBox
+                  USB 96 має все необхідне для запису вокалу, інструментів, під'єднання midi-обладнання, моніторингу,
+                  а також роботи зі звуком.",
+    priori_probability: 0.065,
     questions_estimation: {
       1: {
-        probability_in_presence: 0.9,
-        probability_in_absence: 0.4
+        probability_in_presence: 0.65,
+        probability_in_absence: 0.86
       },
       2: {
-        probability_in_presence: 0.9,
-        probability_in_absence: 0.3
+        probability_in_presence: 0.6,
+        probability_in_absence: 0.37
       },
       3: {
-        probability_in_presence: 0.01,
-        probability_in_absence: 0.56
+        probability_in_presence: 0.9,
+        probability_in_absence: 0.71
       },
       4: {
-        probability_in_presence: 0.01,
-        probability_in_absence: 0.8
+        probability_in_presence: 0.59,
+        probability_in_absence: 0.32
       },
       5: {
         probability_in_presence: 0.9,
         probability_in_absence: 0.68
       },
       6: {
-        probability_in_presence: 0.001,
-        probability_in_absence: 0.94
+        probability_in_presence: 0.89,
+        probability_in_absence: 0.64
       },
       7: {
-        probability_in_presence: 0.68,
-        probability_in_absence: 0.34
+        probability_in_presence: 0.78,
+        probability_in_absence: 0.57
       },
       8: {
-        probability_in_presence: 0.95,
-        probability_in_absence: 0.18
+        probability_in_presence: 0.27,
+        probability_in_absence: 0.75
       }
     }
   },
   {
     id: 4,
-    producer: Behringer,
-    model: UCG102,
-    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
-    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
-                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
-                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
-                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
-                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
-                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
-    priori_probability: 0.5,
+    producer: Saramonic,
+    model: SmartRig+,
+    image_id: null,
+    description: "Двоканальний аудіомікшер Saramonic SmartRig + — це вдосконалена версія популярного аудіопристрою
+                  SmartRig. Звуковий адаптер Sarimonic SmartRig + — це просте рішення для під'єднання будь-яких
+                  професійних мікрофонів до iPhone, iPod touch або iPad і пристроїв Android.",
+    priori_probability: 0.065,
     questions_estimation: {
       1: {
         probability_in_presence: 0.9,
-        probability_in_absence: 0.4
+        probability_in_absence: 0.35
       },
       2: {
-        probability_in_presence: 0.9,
-        probability_in_absence: 0.3
+        probability_in_presence: 0.67,
+        probability_in_absence: 0.75
       },
       3: {
-        probability_in_presence: 0.01,
+        probability_in_presence: 0.868,
         probability_in_absence: 0.56
       },
       4: {
-        probability_in_presence: 0.01,
-        probability_in_absence: 0.8
+        probability_in_presence: 0.69,
+        probability_in_absence: 0.489
       },
       5: {
-        probability_in_presence: 0.9,
-        probability_in_absence: 0.68
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.99
       },
       6: {
-        probability_in_presence: 0.001,
-        probability_in_absence: 0.94
+        probability_in_presence: 0.679,
+        probability_in_absence: 0.587
       },
       7: {
-        probability_in_presence: 0.68,
-        probability_in_absence: 0.34
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.98
       },
       8: {
-        probability_in_presence: 0.95,
-        probability_in_absence: 0.18
+        probability_in_presence: 0.05,
+        probability_in_absence: 0.86
       }
     }
   },
   {
     id: 5,
-    producer: Behringer,
-    model: UCG102,
-    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
-    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
-                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
-                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
-                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
-                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
-                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
-    priori_probability: 0.5,
+    producer: Tascam,
+    model: US 2x2,
+    image_id: null,
+    description: "модель початкового рівня, виготовлена в повністю алюмінієвому корпусі в досить аскетичному дизайні.
+                  Зовнішня звукова карта сумісна з платформами Mac і PC, а також підтримує iOS-пристрої. Tascam US 2x2
+                  підтримує записування і відтворення в режимах до 24 біт 96 кГц. Він обладнаний двома
+                  мікрофонними/лінійними входами, які реалізовані на комбінованих роз'ємах XLR/TRS. Водночас для
+                  конденсаторних мікрофонів передбачене фантомне живлення +48 В, а високоякісні дискретні попередні
+                  Ultra-HDDA забезпечують низький рівень спотворень і шумів. За допомогою перемикачів на передній
+                  панелі входи 1 і 2 можуть бути перепризначені на інструментальні, що дасть змогу приєднати до них
+                  електрогітару безпосередньо. Також Tascam US 2x2 має MIDI вхід і вихід, а також два балансних
+                  лінійних виходи TRS.",
+    priori_probability: 0.065,
     questions_estimation: {
       1: {
-        probability_in_presence: 0.9,
-        probability_in_absence: 0.4
-      },
-      2: {
-        probability_in_presence: 0.9,
-        probability_in_absence: 0.3
-      },
-      3: {
-        probability_in_presence: 0.01,
-        probability_in_absence: 0.56
-      },
-      4: {
-        probability_in_presence: 0.01,
-        probability_in_absence: 0.8
-      },
-      5: {
-        probability_in_presence: 0.9,
+        probability_in_presence: 0.42,
         probability_in_absence: 0.68
       },
+      2: {
+        probability_in_presence: 0.418,
+        probability_in_absence: 0.576
+      },
+      3: {
+        probability_in_presence: 0.8,
+        probability_in_absence: 0.46
+      },
+      4: {
+        probability_in_presence: 0.875,
+        probability_in_absence: 0.257
+      },
+      5: {
+        probability_in_presence: 0.769,
+        probability_in_absence: 0.423
+      },
       6: {
-        probability_in_presence: 0.001,
-        probability_in_absence: 0.94
+        probability_in_presence: 0.812,
+        probability_in_absence: 0.367
       },
       7: {
-        probability_in_presence: 0.68,
-        probability_in_absence: 0.34
+        probability_in_presence: 0.841,
+        probability_in_absence: 0.521
       },
       8: {
-        probability_in_presence: 0.95,
-        probability_in_absence: 0.18
+        probability_in_presence: 0.327,
+        probability_in_absence: 0.696
       }
     }
   },
   {
     id: 6,
-    producer: Behringer,
-    model: UCG102,
-    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
-    description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
-                  підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
-                  гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент
-                  у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
-                  Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
-                  аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
-    priori_probability: 0.5,
+    producer: M-Audio,
+    model: MTrack Quad,
+    image_id: null,
+    description: "серце вашої студії. Чотири універсальні входи на передній панелі здатні прийняти будь-яке
+                  джерело звуку, чи то мікрофони з фантомним живленням, чи то ваша улюблена гітара.
+                  MTrack Quad забезпечує моніторинг із нульовою затримкою вхідного сигналу для безтурботного запису.
+                  Чотири виходи дають свободу у виборі відтворення. Передня панель також має вихід для навушників з
+                  окремим регулятором рівня. На додаток до видатного звучання, MTrack Quad також обладнаний
+                  інтерфейсом MIDI.",
+    priori_probability: 0.065,
     questions_estimation: {
       1: {
-        probability_in_presence: 0.9,
-        probability_in_absence: 0.4
+        probability_in_presence: 0.251,
+        probability_in_absence: 0.861
       },
       2: {
-        probability_in_presence: 0.9,
-        probability_in_absence: 0.3
+        probability_in_presence: 0.279,
+        probability_in_absence: 0.791
       },
       3: {
-        probability_in_presence: 0.01,
-        probability_in_absence: 0.56
+        probability_in_presence: 0.98,
+        probability_in_absence: 0.601
       },
       4: {
-        probability_in_presence: 0.01,
-        probability_in_absence: 0.8
+        probability_in_presence: 0.997,
+        probability_in_absence: 0.195
       },
       5: {
         probability_in_presence: 0.9,
         probability_in_absence: 0.68
       },
       6: {
-        probability_in_presence: 0.001,
-        probability_in_absence: 0.94
+        probability_in_presence: 0.94,
+        probability_in_absence: 0.76
       },
       7: {
-        probability_in_presence: 0.68,
-        probability_in_absence: 0.34
+        probability_in_presence: 0.935,
+        probability_in_absence: 0.791
       },
       8: {
-        probability_in_presence: 0.95,
-        probability_in_absence: 0.18
+        probability_in_presence: 0.27,
+        probability_in_absence: 0.762
       }
     }
   },
@@ -304,7 +303,7 @@ outcomes: [
                   у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
                   Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
                   аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
-    priori_probability: 0.5,
+    priori_probability: 0.065,
     questions_estimation: {
       1: {
         probability_in_presence: 0.9,
@@ -351,7 +350,7 @@ outcomes: [
                   у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
                   Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
                   аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
-    priori_probability: 0.5,
+    priori_probability: 0.065,
     questions_estimation: {
       1: {
         probability_in_presence: 0.9,
@@ -398,7 +397,7 @@ outcomes: [
                   у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
                   Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
                   аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
-    priori_probability: 0.5,
+    priori_probability: 0.065,
     questions_estimation: {
       1: {
         probability_in_presence: 0.9,
@@ -445,7 +444,7 @@ outcomes: [
                   у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
                   Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
                   аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
-    priori_probability: 0.5,
+    priori_probability: 0.065,
     questions_estimation: {
       1: {
         probability_in_presence: 0.9,
@@ -492,7 +491,7 @@ outcomes: [
                   у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
                   Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
                   аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
-    priori_probability: 0.5,
+    priori_probability: 0.065,
     questions_estimation: {
       1: {
         probability_in_presence: 0.9,
@@ -539,7 +538,7 @@ outcomes: [
                   у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
                   Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
                   аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
-    priori_probability: 0.5,
+    priori_probability: 0.065,
     questions_estimation: {
       1: {
         probability_in_presence: 0.9,
@@ -586,7 +585,7 @@ outcomes: [
                   у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
                   Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
                   аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
-    priori_probability: 0.5,
+    priori_probability: 0.065,
     questions_estimation: {
       1: {
         probability_in_presence: 0.9,
@@ -633,7 +632,7 @@ outcomes: [
                   у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
                   Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
                   аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
-    priori_probability: 0.5,
+    priori_probability: 0.065,
     questions_estimation: {
       1: {
         probability_in_presence: 0.9,
@@ -680,7 +679,7 @@ outcomes: [
                   у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
                   Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
                   аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
-    priori_probability: 0.5,
+    priori_probability: 0.065,
     questions_estimation: {
       1: {
         probability_in_presence: 0.9,
@@ -727,7 +726,7 @@ outcomes: [
                   у віртуальний сетап. Інтерфейс поставляється з потужним програмним пакетом, що містить
                   Guitar Combos Behringer Edition фірми Native Instruments, мультитрековий секвенсор Kristal і
                   аудіоредактор Audacity. У пристрої також передбачений вихід на навушники для безшумних занять.",
-    priori_probability: 0.5,
+    priori_probability: 0.065,
     questions_estimation: {
       1: {
         probability_in_presence: 0.9,
