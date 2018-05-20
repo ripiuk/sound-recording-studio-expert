@@ -14,3 +14,6 @@ venv_init:
 	bash -c "source venv/bin/activate && \
 		pip install --upgrade wheel pip setuptools && \
 		pip install --upgrade --requirement requirements.txt"
+
+run:
+	python run_bot.py
