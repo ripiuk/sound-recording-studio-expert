@@ -8,7 +8,7 @@ outcomes: [
     id: 1,
     producer: Producer name,
     model: Model name,
-    image_path: null,
+    image_id: null,
     description: Some description,
     priori_probability: 0.5,
     questions_estimation: {

@@ -9,7 +9,7 @@ outcomes: [
     id: 1,
     producer: Focusrite,
     model: Scarlett Solo 2nd Gen,
-    image_path: null,
+    image_id: AgADAgADM6kxG4E0CUjkV8031OAuLmSaQw4ABG7BTN0EvXRM868EAAEC,
     description: "Надійний і доступний аудіоінтерфейс Focusrite Scarlett Solo 2nd Gen стане для вас
                   гарним помічником у записуванні музики. Модель має мікрофонний вхід XLR, щоб
                   приєднати мікрофон, і другий — TRS, для електрогітари. У розпорядженні користувача
@@ -37,7 +37,7 @@ outcomes: [
     id: 2,
     producer: Behringer,
     model: UCG102,
-    image_path: null,
+    image_id: AgADAgADpqkxG4E0EUgAASjhfSPPkZtAGJwOAAQXgKkBAtYvbo6vBAABAg,
     description: "Гітарний інтерфейс UCG102 дає змогу грати та записувати через програмні моделювальні
                   підсилювачі й ефекти без купівлі додаткового устаткування. З його допомогою можна з'єднати
                   гітару з PC або Mac через стандартний USB-порт і, у такий спосіб, інтегрувати реальний інструмент

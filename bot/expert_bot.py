@@ -46,6 +46,20 @@ class ExpertBotHandler:
         self.log.debug(f'Message delivery status: {resp.status_code}')
         return resp
 
+    def send_photo(self, chat_id: int or str, file_id: str, caption: str=None) -> requests.models.Response():
+        """
+        :param chat_id: Unique identifier for the target chat or username of the target channel
+        :param file_id: Photo to send. Pass a file_id as String to send a photo that exists on the Telegram servers
+        :param caption: Photo caption 0-200 characters
+        """
+        method = 'sendPhoto'
+        params = {'chat_id': chat_id, 'photo': file_id}
+        if caption:
+            params = {**params, 'caption': caption}
+        resp = requests.post(self.api_url + method, params)
+        self.log.debug(f'Message delivery status: {resp.status_code}')
+        return resp
+
     def get_last_update(self) -> tuple:
         """Get last update and parse a response
 
@@ -75,6 +89,7 @@ class ExpertBotHandler:
     @staticmethod
     def parse_update_message(message: dict) -> tuple:
         last_update_id = message['update_id']
-        last_chat_text = message['message']['text']
+        # FIXME: if there will be no 'text' field?
+        last_chat_text = message['message'].get('text')
         last_chat_id = message['message']['chat']['id']
         return last_update_id, last_chat_text, last_chat_id

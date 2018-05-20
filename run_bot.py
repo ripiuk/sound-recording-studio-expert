@@ -1,5 +1,5 @@
 import misc
-from expert_bot import ExpertBotHandler
+from bot import ExpertBotHandler
 from experts import AudioInterface, Soundproofing
 
 EQUIPMENTS = ({
@@ -34,6 +34,9 @@ SETTINGS_TEXT = ('Оберіть мову (лише для навігації)',
                  'Here you can choose a language that you prefer (for navigation only)')
 NOT_AVAILABLE_TEXT = ('Ви не можете використовувати команди під час опитування.',
                       'All commands are not available during the quiz.')
+RESULT_MESSAGE = ('*Результат:*\n\n*Виробник:* {producer}\n*Модель:* {model}\n*Опис:* {description}',
+                  '*Result:*\n\n*Producer:* {producer}\n*Model:* {model}\n*Description:* {description}')
+NO_TEXT_MESSAGE = ('Я очікую текст або команду', 'I\'m waiting for some text or command')
 QUESTION_NUMBER_PREFIX = ('Поточне питання: ', 'Current question: ')
 DONE_MESSAGE = ('Готово', 'Done')
 LANGUAGES = {'🇺🇦UA': 0, '🇺🇸US': 1}
@@ -64,12 +67,18 @@ def main():
         expert_bot.get_updates(new_offset)
         for update in expert_bot.get_updates():
             last_update_id, last_chat_text, last_chat_id = expert_bot.parse_update_message(update)
+
             if not last_update_id:
                 # Update response is empty
                 continue
+
             current_language_id = chat_language_for_user.get(last_chat_id, DEFAULT_LANGUAGE_ID)
             is_current_user_in_quiz = current_step_for_user.get(last_chat_id, dict()).get(
                 'current_step') or current_step_for_user.get(last_chat_id, dict()).get('current_step') == 0
+
+            if not last_chat_text:
+                # There is no text in this update
+                expert_bot.send_message(last_chat_id, NO_TEXT_MESSAGE[current_language_id])
 
             if is_current_user_in_quiz:
                 if last_chat_text in LIST_OF_ANSWERS[current_language_id]:
@@ -98,9 +107,14 @@ def main():
                     if question_number >= number_of_questions:
                         # Send results
                         result = expert_system.get_result()
+                        file_id = result.get('image_id')
+                        if file_id:
+                            expert_bot.send_photo(last_chat_id, file_id, caption='{} {}'.format(
+                                result.get('producer'), result.get('model')))
                         expert_bot.send_message(
-                            last_chat_id, f"Result:\nProducer: {result.get('producer')}\n"
-                                          f"Model: {result.get('model')}\n",
+                            last_chat_id, RESULT_MESSAGE[current_language_id].format(
+                                producer=result.get('producer'), model=result.get('model'),
+                                description=result.get('description')),
                             reply_markup=expert_bot.remove_keyboards())
                         del current_step_for_user[last_chat_id]
                     else:

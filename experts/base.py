@@ -62,7 +62,7 @@ class Expert:
             t.Key('id'): t.Int,
             t.Key('producer'): t.String,
             t.Key('model'): t.String,
-            t.Key('image_path'): t.Or(t.String(allow_blank=True), t.Null),
+            t.Key('image_id'): t.Or(t.String(allow_blank=True), t.Null),
             t.Key('description'): t.String(allow_blank=True),
             t.Key('priori_probability'): t.Float,
             t.Key('questions_estimation'): Dict({
