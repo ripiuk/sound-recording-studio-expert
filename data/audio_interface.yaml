@@ -109,7 +109,7 @@ outcomes: [
     id: 3,
     producer: PreSonus,
     model: AudioBox USB 96,
-    image_id: null,
+    image_id: AgADAgAD3agxG45bIUgizH3liMoL-6UrrQ4ABAsQIKk2vSxtxNgBAAEC,
     description: "оновлена версія популярного інтерфейсу PreSonus AudioBox USB, тепер на шині USB 2.0 і частотою
                   дискретизації до 96 кГц. Аудіоінтерфейс AudioBox USB 96 це стартове рішення, за невеликі гроші,
                   для домашньої студії, записування подкастів, звукозапису в дорозі. Інтерфейс PreSonus AudioBox
@@ -155,7 +155,7 @@ outcomes: [
     id: 4,
     producer: Saramonic,
     model: SmartRig+,
-    image_id: null,
+    image_id: AgADAgAD3qgxG45bIUisI0VCmqK4Jgh2qw4ABC8dSEo_5axA-tcBAAEC,
     description: "Двоканальний аудіомікшер Saramonic SmartRig + — це вдосконалена версія популярного аудіопристрою
                   SmartRig. Звуковий адаптер Sarimonic SmartRig + — це просте рішення для під'єднання будь-яких
                   професійних мікрофонів до iPhone, iPod touch або iPad і пристроїв Android.",
@@ -199,7 +199,7 @@ outcomes: [
     id: 5,
     producer: Tascam,
     model: US 2x2,
-    image_id: null,
+    image_id: AgADAgAD4KgxG45bIUjDY-Ku0vsAAW0185sOAATaKclyjOcpqK-9BAABAg,
     description: "модель початкового рівня, виготовлена в повністю алюмінієвому корпусі в досить аскетичному дизайні.
                   Зовнішня звукова карта сумісна з платформами Mac і PC, а також підтримує iOS-пристрої. Tascam US 2x2
                   підтримує записування і відтворення в режимах до 24 біт 96 кГц. Він обладнаний двома
@@ -249,7 +249,7 @@ outcomes: [
     id: 6,
     producer: M-Audio,
     model: MTrack Quad,
-    image_id: null,
+    image_id: AgADAgADUqkxG3z2GUi4bHk5bFWam28orQ4ABK1cJ-vzOZCHLdsBAAEC,
     description: "серце вашої студії. Чотири універсальні входи на передній панелі здатні прийняти будь-яке
                   джерело звуку, чи то мікрофони з фантомним живленням, чи то ваша улюблена гітара.
                   MTrack Quad забезпечує моніторинг із нульовою затримкою вхідного сигналу для безтурботного запису.
@@ -296,7 +296,7 @@ outcomes: [
     id: 7,
     producer: Behringer,
     model: U-Control UCA202,
-    image_id: null,
+    image_id: AgADAgADUakxG3z2GUi4GlvuNiNGkQAB9KwOAAQJ4GaD51JfwenZAQABAg,
     description: "Німецька компанія Behringer є світовим лідером у розробленні, виробництві та дистрибуції
                   професійного звукового обладнання, музичних інструментів і пов'язаної з ними продукції.
                   Компанія представляє великий асортимент музичного обладнання, включно з різними категоріями
@@ -345,7 +345,7 @@ outcomes: [
     id: 8,
     producer: Avid,
     model: Pro Tools Duet,
-    image_id: null,
+    image_id: AgADAgADUKkxG3z2GUia1VkdC9SAHYfNrA4ABDBP2jPpPHZCndYBAAEC,
     description: "мініатюрний USB-аудіоінтерфейс, який заточений під програмне забезпечення Pro Tools.
                   Має 2 входи і 4 виходи, частоту дискретизації 24 біти/192 кГц. Наявна можливість
                   під'єднувати мікрофон та інструменти для запису.",
@@ -389,7 +389,7 @@ outcomes: [
     id: 9,
     producer: Steinberg,
     model: UR22,
-    image_id: null,
+    image_id: AgADAgAD36gxG45bIUiHegruy2ftQxtOqw4ABMLTZLa5zZhkytoBAAEC,
     description: "Модель UR22 mkII є звуковим 2-канальним інтерфейсом USB. На відміну від попередньої версії,
                   пристрій має режим Loopback під інтернет-стримінг у реальному часі та функцію Class Compliant для
                   під'єднання до iPad. Крім цього, до набору входить застосунок iOS Cubasis Light Edition.",
@@ -433,7 +433,7 @@ outcomes: [
     id: 10,
     producer: Line 6,
     model: POD Studio UX2,
-    image_id: null,
+    image_id: AgADAgAD3KgxG45bIUhPL0vcp4RCaC60qw4ABM5H0AW2_ple_NQBAAEC,
     description: "POD Studio UX2 поєднує в собі гнучкість і функціональність нового POD Farm плагіна з потужним
                   інструментальним USB інтерфейсом із розширеним набором функцій. POD Studio UX2 — це надійний
                   інтерфейс, простий у використанні та налаштуванні.",
@@ -477,7 +477,7 @@ outcomes: [
     id: 11,
     producer: Audient,
     model: iD4,
-    image_id: null,
+    image_id: AgADAgAD26gxG45bIUhgouMmZaWFVlfJRg4ABBg3SgO9WNoYhGUCAAEC,
     description: "USB-аудіоінтерфейс, сумісний з Mac, PC та iOS-пристроями. Це наймолодша модель в асортименті
                   британського виробника, що має лише два вхідні та два вихідні канали та позиціонується як доступне
                   рішення для невеликої домашньої студії і використання в дорозі. Пристрій зроблений у досить
