@@ -80,7 +80,7 @@ def main():
                 # There is no text in this update
                 expert_bot.send_message(last_chat_id, NO_TEXT_MESSAGE[current_language_id])
 
-            if is_current_user_in_quiz:
+            elif is_current_user_in_quiz:
                 if last_chat_text in LIST_OF_ANSWERS[current_language_id]:
                     question_number = current_step_for_user[last_chat_id]['current_step']
                     expert_system = current_step_for_user[last_chat_id]['expert_class']
