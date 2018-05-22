@@ -1,0 +1,398 @@
+questions: [
+  'Вам потрібен дешевий мікрофон?',
+  'Мікрофон повинен мати широкий діапазон частот?',
+  'Вам потрібен конденсаторний мікрофон?',
+  "Роз'єм мікрофона повинен бути XLR?",
+  'У мікрофона повинна бути висока чутливість?',
+  'Вам потрібна тривала офіційна гарантія?',
+]
+
+outcomes: [
+  {
+    id: 1,
+    producer: Vitek,
+    model: VT-3836 BK,
+    image_id: AgADAgADu6gxGyHOKUhdf19gxvVbW040qw4ABKxpJ5BaHQyfaegBAAEC,
+    description: "Універсальний мікрофон - оптимальний вибір для домашнього використання. Часто наспівуєте мелодії
+                  в душі? Знаєте напам'ять багато пісень? Кожен вікенд відвідуєте з друзями караоке-бар?
+                  Не ховайте свої захоплення в «довгу шухляду», а розвивайте вокальні здібності - можливо,
+                  незабаром Ви станете справжньою зіркою естради. Для занять, підготовки до конкурсів і
+                  прослуховування необхідно купити мікрофон.",
+    priori_probability: 0.065,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.998,
+        probability_in_absence: 0.308
+      },
+      2: {
+        probability_in_presence: 0.025,
+        probability_in_absence: 0.988
+      },
+      3: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9789
+      },
+      4: {
+        probability_in_presence: 0.25,
+        probability_in_absence: 0.8309
+      },
+      5: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9985
+      },
+      6: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9945
+      }
+    }
+  },
+  {
+    id: 2,
+    producer: Samson,
+    model: R21S,
+    image_id: AgADAgADvagxGyHOKUj-Grv8mJPuQJ-hmg4ABJyKb9bqOV98uLsEAAEC,
+    description: "Універсальний динамічний мікрофон з вимикачем Samson R21S — якісний доступний мікрофон, який
+                  чудово підійде для невеликих сцен, презентацій або караоке-систем. Надійна металева сітка захищає
+                  капсуль від пошкоджень, кардіоїдна характеристика спрямованості дає змогу уникнути небажаних
+                  сторонніх призвуків, а комплектний кабель (XLR — 1/4\" Jack) і перехідник
+                  (1/4\" Jack — 1/8\" Mini-jack) дають змогу під'єднати цей мікрофон практично до
+                  будь-якої сучасної аудіоапаратури.",
+    priori_probability: 0.065,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.902,
+        probability_in_absence: 0.325
+      },
+      2: {
+        probability_in_presence: 0.08,
+        probability_in_absence: 0.968
+      },
+      3: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9789
+      },
+      4: {
+        probability_in_presence: 0.892,
+        probability_in_absence: 0.609
+      },
+      5: {
+        probability_in_presence: 0.05,
+        probability_in_absence: 0.955
+      },
+      6: {
+        probability_in_presence: 0.419,
+        probability_in_absence: 0.853
+      }
+    }
+  },
+  {
+    id: 3,
+    producer: JTS,
+    model: TM-929,
+    image_id: AgADAgADj6kxG8Z5KEhtwNtDnRNVSj6ZQw4ABIgSM9aJVFjxSsgEAAEC,
+    description: "JTS TM-929 — динамічний вокальний мікрофон, що має широкі частотні характеристики.
+                  Він підходить як для шанувальників якісного звуку, так і для вокалістів. Тип моделі: динамічний,
+                  Діаграма спрямованості: осесиметрична кардіоїда, однорідна за частотами,
+                  Частотний діапазон: 50 — 15000 Гц, Вихідний рівень: -75дБ",
+    priori_probability: 0.065,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.887,
+        probability_in_absence: 0.392
+      },
+      2: {
+        probability_in_presence: 0.159,
+        probability_in_absence: 0.868
+      },
+      3: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9889
+      },
+      4: {
+        probability_in_presence: 0.892,
+        probability_in_absence: 0.629
+      },
+      5: {
+        probability_in_presence: 0.25,
+        probability_in_absence: 0.759
+      },
+      6: {
+        probability_in_presence: 0.407,
+        probability_in_absence: 0.863
+      }
+    }
+  },
+  {
+    id: 4,
+    producer: Shure,
+    model: SV100,
+    image_id: AgADAgADv6gxGyHOKUh_dx8wc3s8iksgrQ4ABNTl6hevgulkY-EBAAEC,
+    description: "Вокальний динамічний мікрофон Shure SV100 з кардіоїдною характеристикою спрямованості,
+                  частотним діапазоном 50-15000 Гц, високим вихідним рівнем. Вокальний мікрофон Shure SV100 з
+                  вимикачем комплектується з'єднувальним кабелем XLR-1/4. Недорогий мікрофон фірми Shure
+                  з якісним звучанням",
+    priori_probability: 0.065,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.862,
+        probability_in_absence: 0.432
+      },
+      2: {
+        probability_in_presence: 0.259,
+        probability_in_absence: 0.768
+      },
+      3: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9689
+      },
+      4: {
+        probability_in_presence: 0.792,
+        probability_in_absence: 0.529
+      },
+      5: {
+        probability_in_presence: 0.315,
+        probability_in_absence: 0.729
+      },
+      6: {
+        probability_in_presence: 0.928,
+        probability_in_absence: 0.432
+      }
+    }
+  },
+  {
+    id: 5,
+    producer: Audio-Technica,
+    model: ATR3350,
+    image_id: AgADAgADwqgxGyHOKUhG_Vjk0vmC3zA1qw4ABBo6sdor9ktkbuwBAAEC,
+    description: "Audio-Technica ATR3350 — всеспрямований конденсаторний мікрофон у стилі «диктора» ідеально підходить
+                  для спортивних інструкторів та фільмування де бажана мінімальна помітність і невеликі розміри.
+                  Він легко кріпиться на одязі, а низькопрофільна конструкція забезпечує його непомітність.
+                  Мікрофон обладнаний 6-метровим кабелем, що закінчується 3,5 мм штекером, який підійде для
+                  прямого під'єднання до більшості камер.",
+    priori_probability: 0.065,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.864,
+        probability_in_absence: 0.422
+      },
+      2: {
+        probability_in_presence: 0.379,
+        probability_in_absence: 0.758
+      },
+      3: {
+        probability_in_presence: 0.858,
+        probability_in_absence: 0.528
+      },
+      4: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99998
+      },
+      5: {
+        probability_in_presence: 0.02,
+        probability_in_absence: 0.829
+      },
+      6: {
+        probability_in_presence: 0.299,
+        probability_in_absence: 0.859
+      }
+    }
+  },
+  {
+    id: 6,
+    producer: Audio-Technica,
+    model: PRO61,
+    image_id: AgADAgADkKkxG8Z5KEiPuFQPwBASHlBWqw4ABKNfujo0BnMUU-YBAAEC,
+    description: "Вокальний мікрофон PRO61 — представник серії PRO мікрофонів Audio-Technica, є лідером з-поміж
+                  мікрофонів цієї серії. Він має високу чутливість за низького зворотного зв'язку. PRO61 чудово
+                  підійде для солістів і бек-вокалістів. Завдяки розширеній частотній характеристиці цей мікрофон
+                  забезпечує прекрасну розбірливість і рівне, натуральне звучання. Гіперкардіоїдна діаграма
+                  спрямованості забезпечує непогану ізоляцію джерела звуку від сторонніх шумів.",
+    priori_probability: 0.065,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.625,
+        probability_in_absence: 0.322
+      },
+      2: {
+        probability_in_presence: 0.472,
+        probability_in_absence: 0.328
+      },
+      3: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9898
+      },
+      4: {
+        probability_in_presence: 0.989,
+        probability_in_absence: 0.639
+      },
+      5: {
+        probability_in_presence: 0.385,
+        probability_in_absence: 0.629
+      },
+      6: {
+        probability_in_presence: 0.384,
+        probability_in_absence: 0.725
+      }
+    }
+  },
+  {
+    id: 7,
+    producer: Samson,
+    model: C01U Pro,
+    image_id: AgADAgADw6gxGyHOKUh2Q3UyHKrzfzPcrA4ABDj6gkDqpHCwouABAAEC,
+    description: "Samson C01U Pro — це студійний конденсаторний мікрофон з USB-інтерфейсом і виходом для навушників
+                  із нульовою затримкою. Велика 19 мм діафрагма здатна вловити найменші нюанси вашого голосу.
+                  До того ж, капсуль мікрофона має спеціальне антишокове кріплення й розміщений всередині
+                  надійного металевого корпусу, для зменшення небажаних шумів і вібрацій. C01U Pro забезпечує
+                  натуральне звучання високих і низьких частот, а також здатний працювати з вашим улюбленим
+                  аудіоредактором. Для зручності користувача C01U Pro не вимагає встановлення драйверів і
+                  здатний отримувати живлення шиною USB від Mac або PC (кабель у комплекті).",
+    priori_probability: 0.065,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.525,
+        probability_in_absence: 0.322
+      },
+      2: {
+        probability_in_presence: 0.819,
+        probability_in_absence: 0.213
+      },
+      3: {
+        probability_in_presence: 0.9998,
+        probability_in_absence: 0.213
+      },
+      4: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.985
+      },
+      5: {
+        probability_in_presence: 0.893,
+        probability_in_absence: 0.259
+      },
+      6: {
+        probability_in_presence: 0.619,
+        probability_in_absence: 0.324
+      }
+    }
+  },
+  {
+    id: 8,
+    producer: M-Audio,
+    model: Vocal Studio,
+    image_id: AgADAgADk6kxG8Z5KEgri1u6N6OcaGbMRg4ABBV8zq7xjXRQmGoCAAEC,
+    description: "Мікрофон M-Audio Vocal Studio забезпечено великою діафрагмою для захоплення тонких елементів
+                  вокальних виступів. Пристрій має велику кардіоїдну капсулу, захищену сіткою, міцний металевий корпус,
+                  1/8 стереовихід, USB-роз'єм, 16-бітне записування із частотою 44.1 або 48 кГц і багато іншого.
+                  Спеціальні драйвери мікрофона дають змогу прослуховувати виконання в реальному часі без затримань.
+                  Крім того, мікрофон можна використовувати для записування інструментів та інших джерел звуку.
+                  Мікрофон підтримує безоплатне програмне забезпечення Ignite Music Creation Software, що має простий
+                  для користувача інтерфейс, велику кількість ефектів, 2 незалежні аудіоканали й понад
+                  275 звуків інструментів.",
+    priori_probability: 0.065,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.491,
+        probability_in_absence: 0.213
+      },
+      2: {
+        probability_in_presence: 0.719,
+        probability_in_absence: 0.393
+      },
+      3: {
+        probability_in_presence: 0.9998,
+        probability_in_absence: 0.243
+      },
+      4: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.985
+      },
+      5: {
+        probability_in_presence: 0.913,
+        probability_in_absence: 0.229
+      },
+      6: {
+        probability_in_presence: 0.671,
+        probability_in_absence: 0.314
+      }
+    }
+  },
+  {
+    id: 9,
+    producer: Rode,
+    model: NTK,
+    image_id: AgADAgADlKkxG8Z5KEhV3Cbx2-TR0lykmg4ABMEnM9qaXBrVccgEAAEC,
+    description: "Rode NTK — це ламповий мікрофон класу «А», який здобув велику кількість нагород,; його застосовують
+                  десятки тисяч професіоналів у всьому світі. «Серце» мікрофона NTK, капсуль HF-2, розробили й
+                  виробляють в Австралії. Електронні ланцюги, що доповнюють цей дуже чутливий перетворювач,
+                  містять відібраний вручну подвійний ламповий тріод 6922, а також деталі та схему, що відповідають
+                  найвищим вимогам. Результатом цього є дуже широкий динамічний діапазон, малий власний шум і
+                  навдивовижу тепле «лампове» звучання. Насичене звучання NTK ідеально підходить для вокалу,
+                  акустичних інструментів, тарілок барабанної установки, гітарних підсилювачів і фортепіано.",
+    priori_probability: 0.065,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.0028,
+        probability_in_absence: 0.9578
+      },
+      2: {
+        probability_in_presence: 0.989,
+        probability_in_absence: 0.129
+      },
+      3: {
+        probability_in_presence: 0.9998,
+        probability_in_absence: 0.143
+      },
+      4: {
+        probability_in_presence: 0.998,
+        probability_in_absence: 0.315
+      },
+      5: {
+        probability_in_presence: 0.9289,
+        probability_in_absence: 0.095
+      },
+      6: {
+        probability_in_presence: 0.771,
+        probability_in_absence: 0.214
+      }
+    }
+  },
+  {
+    id: 10,
+    producer: AKG,
+    model: С414XLII,
+    image_id: AgADAgADlakxG8Z5KEi8pBq9mLBgZ3UbrQ4ABHAmT8y4dFQTA94BAAEC,
+    description: "Класичний мікрофон C414 XLII з виразним тембром, розроблений спеціально для запису сольних
+                  вокальних та інструментальних партій. Репрезентуючи мікрофон нового покоління C414 XLII, AKG
+                  установлює нові стандарти корисних якостей, технічних характеристик, ергономічності та наявності
+                  допоміжних аксесуарів. Усі ці вдосконалення є реакцією на дедалі збільшувані запити звукозаписних
+                  студій, радіостанцій, звукорежисерів, але водночас мікрофон зберіг незмінними основні характеристики
+                  легендарного C414.",
+    priori_probability: 0.065,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.9998
+      },
+      2: {
+        probability_in_presence: 0.999,
+        probability_in_absence: 0.098
+      },
+      3: {
+        probability_in_presence: 0.9998,
+        probability_in_absence: 0.243
+      },
+      4: {
+        probability_in_presence: 0.998,
+        probability_in_absence: 0.315
+      },
+      5: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.015
+      },
+      6: {
+        probability_in_presence: 0.871,
+        probability_in_absence: 0.294
+      }
+    }
+  },
+]

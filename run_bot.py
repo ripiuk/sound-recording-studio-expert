@@ -1,17 +1,17 @@
 import misc
 from bot import ExpertBotHandler
-from experts import AudioInterface, Soundproofing
+from experts import AudioInterface, Soundproofing, Microphone
 
 EQUIPMENTS = ({
         'Аудіо інтерфейс': AudioInterface,
         'Шумоізоляція': Soundproofing,
-        'Мікрофон': None,
+        'Мікрофон': Microphone,
         'Студійні монітори': None,
         'Мікшерський пульт': None
     }, {
         'Audio interface': AudioInterface,
         'Soundproofing': Soundproofing,
-        'Microphone': None,
+        'Microphone': Microphone,
         'Studio monitor': None,
         'Mixing console': None
     })
