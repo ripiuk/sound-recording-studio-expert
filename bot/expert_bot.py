@@ -89,7 +89,6 @@ class ExpertBotHandler:
     @staticmethod
     def parse_update_message(message: dict) -> tuple:
         last_update_id = message['update_id']
-        # FIXME: if there will be no 'text' field?
         last_chat_text = message['message'].get('text')
         last_chat_id = message['message']['chat']['id']
         return last_update_id, last_chat_text, last_chat_id

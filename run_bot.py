@@ -1,19 +1,21 @@
 import misc
 from bot import ExpertBotHandler
-from experts import AudioInterface, Soundproofing, Microphone
+from experts import AudioInterface, Soundproofing, Microphone, StudioMonitor
 
 EQUIPMENTS = ({
         'Аудіо інтерфейс': AudioInterface,
         'Шумоізоляція': Soundproofing,
         'Мікрофон': Microphone,
-        'Студійні монітори': None,
-        'Мікшерський пульт': None
+        'Студійні монітори': StudioMonitor,
+        'Мікшерський пульт': None,
+        'Програмне забезпечення': None
     }, {
         'Audio interface': AudioInterface,
         'Soundproofing': Soundproofing,
         'Microphone': Microphone,
-        'Studio monitor': None,
-        'Mixing console': None
+        'Studio monitor': StudioMonitor,
+        'Mixing console': None,
+        'Software': None
     })
 LIST_OF_ANSWERS = (('Ні', 'Швидше за все - ні', 'Не знаю', 'Швидше за все - так', 'Так'),
                    ('No', 'Probably no', 'Don\'t know', 'Probably', 'Yes'))
@@ -34,8 +36,8 @@ SETTINGS_TEXT = ('Оберіть мову (лише для навігації)',
                  'Here you can choose a language that you prefer (for navigation only)')
 NOT_AVAILABLE_TEXT = ('Ви не можете використовувати команди під час опитування.',
                       'All commands are not available during the quiz.')
-RESULT_MESSAGE = ('*Результат:*\n\n*Виробник:* {producer}\n*Модель:* {model}\n*Опис:* {description}',
-                  '*Result:*\n\n*Producer:* {producer}\n*Model:* {model}\n*Description:* {description}')
+RESULT_MESSAGE = ('`РЕЗУЛЬТАТ`\n\n*Виробник:* {producer}\n*Модель:* {model}\n*Опис:* {description}',
+                  '`RESULT`\n\n*Producer:* {producer}\n*Model:* {model}\n*Description:* {description}')
 NO_TEXT_MESSAGE = ('Я очікую текст або команду', 'I\'m waiting for some text or command')
 QUESTION_NUMBER_PREFIX = ('Поточне питання: ', 'Current question: ')
 DONE_MESSAGE = ('Готово', 'Done')

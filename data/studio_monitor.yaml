@@ -1,0 +1,61 @@
+questions: [
+  'Вам потрібна велика потужність студійних моніторів (Вт)?',
+  'Студійні монітори повинні мати широкий діапазон відтворюваних частот (Гц)?',
+  'Вам потрібні дешеві студійні монітори?',
+  'Студійні монітори повинні мати високий балансний вхідний опір (Ом)?',
+  'Вам потрібен XLR інтерфейс (мікрофон)?',
+  'Вам потрібен jack інтерейс?',
+  'Вам потрібен RCA інтерейс (тюльпан)?',
+  'Вам потрібна тривала офіційна гарантія?',
+]
+
+outcomes: [
+  {
+    id: 1,
+    producer: KRK,
+    model: Systems Rokit 4 G3,
+    image_id: AgADAgAD9qkxG8Z5MEig4eyZRcCk29djqw4ABBvVyrTYiEzEw-YBAAEC,
+    description: "KRK Rokit 4 G3 (3 покоління) — це активні студійні монітори надають професійну продуктивність
+                  і точність для запису, відомості, мастерингу та відтворення. Система складається з 1 м'якого
+                  купольного твітера і 4 стакан-арамідного композитного НЧ-динаміка. Це все забезпечує високі
+                  частоти до 35 кГц, чіткість голосу та розширений низькочастотний діапазон. Підсилювач класу A/B
+                  надає SPL до 100 дБ. Частотна хвиля модельної лінійки Rokit розроблена для забезпечення детального
+                  формування звукового зображення в точці прослуховування. КRК Rokit 4 G3 — це найкомпактніша модель
+                  у лінійці Rokit. і вона покликана забезпечити великий звук у невеликих приміщеннях.",
+    priori_probability: 0.065,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.05,
+        probability_in_absence: 0.859
+      },
+      2: {
+        probability_in_presence: 0.797,
+        probability_in_absence: 0.509
+      },
+      3: {
+        probability_in_presence: 0.908,
+        probability_in_absence: 0.219
+      },
+      4: {
+        probability_in_presence: 0.518,
+        probability_in_absence: 0.297
+      },
+      5: {
+        probability_in_presence: 0.987,
+        probability_in_absence: 0.052
+      },
+      6: {
+        probability_in_presence: 0.988,
+        probability_in_absence: 0.053
+      },
+      7: {
+        probability_in_presence: 0.893,
+        probability_in_absence: 0.069
+      },
+      8: {
+        probability_in_presence: 0.512,
+        probability_in_absence: 0.319
+      },
+    }
+  },
+]
