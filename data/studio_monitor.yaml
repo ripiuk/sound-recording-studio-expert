@@ -7,6 +7,7 @@ questions: [
   'Вам потрібен jack інтерейс?',
   'Вам потрібен RCA інтерейс (тюльпан)?',
   'Вам потрібна тривала офіційна гарантія?',
+  'Вам потрібна пара (2 студійних моніторів)?'
 ]
 
 outcomes: [
@@ -22,7 +23,7 @@ outcomes: [
                   надає SPL до 100 дБ. Частотна хвиля модельної лінійки Rokit розроблена для забезпечення детального
                   формування звукового зображення в точці прослуховування. КRК Rokit 4 G3 — це найкомпактніша модель
                   у лінійці Rokit. і вона покликана забезпечити великий звук у невеликих приміщеннях.",
-    priori_probability: 0.065,
+    priori_probability: 0.083,
     questions_estimation: {
       1: {
         probability_in_presence: 0.05,
@@ -56,6 +57,10 @@ outcomes: [
         probability_in_presence: 0.512,
         probability_in_absence: 0.319
       },
+      9: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.999
+      },
     }
   },
   {
@@ -80,7 +85,7 @@ outcomes: [
                   гучномовець, потужністю 30 Вт, навантажений на фазоінвертор. Наявність фронтально розташованого
                   фазоінвертора дало змогу знизити вимоги до точності встановлення монітора в просторі та розширити
                   нижню межу відтворення низьких частот до 45 Гц.",
-    priori_probability: 0.065,
+    priori_probability: 0.083,
     questions_estimation: {
       1: {
         probability_in_presence: 0.592,
@@ -113,6 +118,558 @@ outcomes: [
       8: {
         probability_in_presence: 0.522,
         probability_in_absence: 0.329
+      },
+      9: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.999
+      },
+    }
+  },
+  {
+    id: 3,
+    producer: Mackie,
+    model: CR3,
+    image_id: AgADAgADxqkxGwH_UEiy-NG9CNIKI668qw4ABFdf1nc0LBBmogMCAAEC,
+    description: "Mackie CR3 — сбалансированные мониторы с четкими высокими частотами и точной серединой. Подходят
+                  для профессиональных и домашних студий, домашних кинотеатров и мультимедийных приложений. Мониторы
+                  обеспечивают ровную характеристику от ультранизких басовых до точных средних и ясных высоких частот,
+                  гарантируют минимальное влияние искажений, артефактов и изменений в частотной характеристике при
+                  работе на различных уровнях громкости. Кабинеты мониторов оснащены специально настроенными портами
+                  фазоинверторов на задней панели. Корпус изготовлен из МДФ, поэтому нет искажений от движения воздуха
+                  или вибрации. Преобразователи не ограничиваются давлением, и кабинеты резонируют на низких частотах
+                  для более глубокого, сбалансированного звучания баса.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.612,
+        probability_in_absence: 0.229
+      },
+      2: {
+        probability_in_presence: 0.637,
+        probability_in_absence: 0.4109
+      },
+      3: {
+        probability_in_presence: 0.889,
+        probability_in_absence: 0.319
+      },
+      4: {
+        probability_in_presence: 0.918,
+        probability_in_absence: 0.297
+      },
+      5: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.999
+      },
+      6: {
+        probability_in_presence: 0.978,
+        probability_in_absence: 0.063
+      },
+      7: {
+        probability_in_presence: 0.833,
+        probability_in_absence: 0.061
+      },
+      8: {
+        probability_in_presence: 0.6102,
+        probability_in_absence: 0.4092
+      },
+      9: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.2299
+      },
+    }
+  },
+  {
+    id: 4,
+    producer: PreSonus,
+    model: Eris E5,
+    image_id: AgADAgAD-qgxG7l6WEjG-sruL8cxP7dQqw4ABL4i77WEipF27P0BAAEC,
+    description: "PreSonus Eris E5 — ультрадоступний студійний референсний монітор. У серію Eris входять моделі E5 і E8,
+                  обидві моделі 2-смугові, забезпечують дуже точне реагування зі щільним басом і дуже чіткими верхами.
+                  Пристрої можуть бути скориговані користувачем в акустичному просторі, що дає змогу створити зручніший
+                  для прослуховування навколишній простір або моделювати різні місця прослуховування — особливість, як
+                  водиться, не надається студійними моніторами в цій ціновій категорії. Користувачі також можуть зробити
+                  кілька типів налаштувань. Чотирипозиційний перемикач акустичного простору керує фільтрами другого ладу
+                  з центром у точці 100 Гц, що забезпечує три точки загасання (без загасання, -2 дБ і -4 дБ), що дає
+                  змогу контролювати відгук басів щодо близькості стіни до ваших динаміків. Перемикач високих частот
+                  встановлює зріз низької частоти (другого ладу, -12 дБ/октава), 80 Гц або 100 Гц. Ви також матимете
+                  плавне регулювання високих частот і середніх від -6 дБ до +6 дБ.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.792,
+        probability_in_absence: 0.219
+      },
+      2: {
+        probability_in_presence: 0.867,
+        probability_in_absence: 0.353
+      },
+      3: {
+        probability_in_presence: 0.859,
+        probability_in_absence: 0.318
+      },
+      4: {
+        probability_in_presence: 0.518,
+        probability_in_absence: 0.297
+      },
+      5: {
+        probability_in_presence: 0.983,
+        probability_in_absence: 0.051
+      },
+      6: {
+        probability_in_presence: 0.978,
+        probability_in_absence: 0.063
+      },
+      7: {
+        probability_in_presence: 0.833,
+        probability_in_absence: 0.061
+      },
+      8: {
+        probability_in_presence: 0.502,
+        probability_in_absence: 0.327
+      },
+      9: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.999
+      },
+    }
+  },
+  {
+    id: 5,
+    producer: KRK,
+    model: Systems Rokit 6 G3,
+    image_id: AgADAgAD-6gxG7l6WEhYM3h-qG4TAslLqw4ABG7d0OL13JvDR_8BAAEC,
+    description: "Сьогодні компанія «KRK Systems» входить до числа найвідоміших брендів, які спеціалізуються на
+                  виробництві студійних моніторів. Їхні продукти відрізняються не тільки натуральною спектральною
+                  чутливістю з чудовим балансом, а й мінімальним рівнем спотворення і чудовим відтворенням за всіма
+                  критеріями. Лінійка «Rokit» давно стала головним вибором професійних студій звукозапису, музикантів,
+                  виконавців і режисерів, яким важливий якісний процес мікшування і створення хітів.
+                  Завдяки цим пристроям, кожен може почути навіть найдрібніші нюанси аудіозапису. Нове покоління G3
+                  було створено в найкращих традиціях KRK Systems. Активний 6-дюймовий RP6G3 надасть вам нагоду
+                  організувати точний моніторинг і відтворення готових аудіозаписів. У самому серці пристрої містяться
+                  6-дюймовий вуфер з армованої склотканини і 1-дюймовий твітер, який має тканинний купол. Це поєднання
+                  елементів надає можливість якісно відтворювати високі частоти аж до 35000 Гц, розширені низькі
+                  частоти та чіткість вашого вокалу. Підсилювач класу А/В характеризується показником звукового тиску
+                  в 107 дБ. Навіть за високої гучності ви матимете дивовижно низький рівень спотворень. KRK RP6G3
+                  обладнаний хвилевідводом, який був спеціально розроблений для цього пристрою. Він гарантує вам
+                  деталізовану музичну картину в процесі прослуховування.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.795,
+        probability_in_absence: 0.229
+      },
+      2: {
+        probability_in_presence: 0.823,
+        probability_in_absence: 0.3591
+      },
+      3: {
+        probability_in_presence: 0.658,
+        probability_in_absence: 0.329
+      },
+      4: {
+        probability_in_presence: 0.538,
+        probability_in_absence: 0.299
+      },
+      5: {
+        probability_in_presence: 0.983,
+        probability_in_absence: 0.051
+      },
+      6: {
+        probability_in_presence: 0.978,
+        probability_in_absence: 0.063
+      },
+      7: {
+        probability_in_presence: 0.933,
+        probability_in_absence: 0.061
+      },
+      8: {
+        probability_in_presence: 0.552,
+        probability_in_absence: 0.391
+      },
+      9: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.999
+      },
+    }
+  },
+  {
+    id: 6,
+    producer: Mackie,
+    model: CR4,
+    image_id: AgADAgAD_qgxG7l6WEhDIsB-8HwQ_roYnA4ABE0tTvNwZM1isucEAAEC,
+    description: "Mackie CR4 - збалансовані монітори з чіткими високими частотами і точною серединою. Підходять для
+                  професійних і домашніх студій, домашніх кінотеатрів і мультимедійних додатків. Монітори забезпечують
+                  рівну характеристику від ультранизьких басових до точних середніх і ясних високих частот, гарантують
+                  мінімальний вплив спотворень, артефактів і змін в частотній характеристиці при роботі на різних
+                  рівнях гучності. Кабінети моніторів обладнані спеціально налаштованими портами фазоінверторів на
+                  задній панелі. Корпус виготовлений з МДФ, тому немає спотворень від руху повітря або вібрації.
+                  Перетворювачі не обмежуються тиском, і кабінети резонують на низьких частотах для більш глибокого,
+                  збалансованого звучання басу.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.612,
+        probability_in_absence: 0.219
+      },
+      2: {
+        probability_in_presence: 0.637,
+        probability_in_absence: 0.4109
+      },
+      3: {
+        probability_in_presence: 0.818,
+        probability_in_absence: 0.339
+      },
+      4: {
+        probability_in_presence: 0.918,
+        probability_in_absence: 0.297
+      },
+      5: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9981
+      },
+      6: {
+        probability_in_presence: 0.978,
+        probability_in_absence: 0.063
+      },
+      7: {
+        probability_in_presence: 0.833,
+        probability_in_absence: 0.061
+      },
+      8: {
+        probability_in_presence: 0.325,
+        probability_in_absence: 0.613
+      },
+      9: {
+        probability_in_presence: 0.999,
+        probability_in_absence: 0.259
+      },
+    }
+  },
+  {
+    id: 7,
+    producer: Monkey Banana,
+    model: Gibbon AIR,
+    image_id: AgADAgAD_6gxG7l6WEhJrlOPeZGDL_K6qw4ABOGMnsZlFcMIQQABAgABAg,
+    description: "Студийные мониторы Monkey Banana Gibbon AIR Bluetooth - бюджетная модель для мобильных музыкантов или
+                  в качестве использования как мультимедийную акустику. Особенностью модели является наличие встроенного
+                  Bluetooth модуля. Система состоит из активной и пасивной колонки. 4 дюймовый динамики и 3/4 твитер,
+                  мощность 2 x 30 Вт. Частотные характеристики: 60 Гц - 22 кГц. Корпус выполнен из МДФ и обладает
+                  классической, привычной формой.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.392,
+        probability_in_absence: 0.519
+      },
+      2: {
+        probability_in_presence: 0.537,
+        probability_in_absence: 0.3109
+      },
+      3: {
+        probability_in_presence: 0.458,
+        probability_in_absence: 0.219
+      },
+      4: {
+        probability_in_presence: 0.518,
+        probability_in_absence: 0.297
+      },
+      5: {
+        probability_in_presence: 0.0051,
+        probability_in_absence: 0.989
+      },
+      6: {
+        probability_in_presence: 0.978,
+        probability_in_absence: 0.063
+      },
+      7: {
+        probability_in_presence: 0.933,
+        probability_in_absence: 0.061
+      },
+      8: {
+        probability_in_presence: 0.22,
+        probability_in_absence: 0.729
+      },
+      9: {
+        probability_in_presence: 0.999,
+        probability_in_absence: 0.36
+      },
+    }
+  },
+  {
+    id: 8,
+    producer: Yamaha,
+    model: HS5I,
+    image_id: AgADAgAEqTEbuXpYSAnb1ZIdo2O43jerDgAEBbqbhNpUAAGBAAEOAgABAg,
+    description: "HS5I — 2-смугова система студійного моніторингу ближньої зони з роздільним посиленням. Під час вибору
+                  контрольного монітора для мікшування й записування музики основним критерієм є точність відтворення
+                  звуку. Колонки, які звучать 'добре', не обов'язково звучать точно. Головне, що потрібно під час
+                   мікшування звуку — це отримання точного, правильного передавання звучання результату вашої роботи,
+                   що не забезпечують колонки, які спотворюють або змінюють звучання на хибно неперевершене. На відміну
+                   від колонок-моніторів зі встановленим на максимум звучанням низьких і високих частот, що, на перший
+                   погляд, дає гарний тембр, але абсолютно не передає справжнього характеру звуку, колонки серії HS були
+                   розроблені як студійні монітори з абсолютно чистим передаванням звуку в найкращих традиціях
+                   легендарної серії Yamaha NS10M",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.837,
+        probability_in_absence: 0.297
+      },
+      2: {
+        probability_in_presence: 0.819,
+        probability_in_absence: 0.5189
+      },
+      3: {
+        probability_in_presence: 0.619,
+        probability_in_absence: 0.319
+      },
+      4: {
+        probability_in_presence: 0.418,
+        probability_in_absence: 0.397
+      },
+      5: {
+        probability_in_presence: 0.983,
+        probability_in_absence: 0.051
+      },
+      6: {
+        probability_in_presence: 0.978,
+        probability_in_absence: 0.063
+      },
+      7: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.999
+      },
+      8: {
+        probability_in_presence: 0.982,
+        probability_in_absence: 0.22
+      },
+      9: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.999
+      },
+    }
+  },
+  {
+    id: 9,
+    producer: KRK,
+    model: Systems Rokit 8 G3,
+    image_id: AgADAgADAakxG7l6WEhVw_Gm3QzPgrUEnA4ABNDIeaBS2etAu-wEAAEC,
+    description: "Двосмуговий монітор KRK Rokit 8 G3 W є найбільш компактним у своїй серії та призначений для малих і
+                  середніх студій. За вихідної потужності 100 Вт він здатний створити рівень звукового тиску до 109 дБ
+                  (SPL). Попри невеликі розміри, монітор забезпечує необхідні під час запису, зведення або мастерингу
+                  параметри відтворення. Форма та матеріал корпусу дібрані з урахуванням зниження дифракційних
+                  спотворень і резонансних явищ. Всередині кабінету розташований підсилювальний модуль, виготовлений за
+                  технологією Bi-amp. Його вихідні каскади, що працюють у режимі АВ, розділені на окремі ВЧ і НЧ тракти
+                  посилення. Це дає змогу вирівняти частотні характеристики гучномовців на кордоні розділу та знизити
+                  спотворення, викликані їхнім взаємним впливом. Прозорість і чіткість звучання монітора отримана
+                  завдяки застосуванню патентованого випромінювача Rokit, що являє собою дюймовий ВЧ гучномовець
+                  купольного типу, укладений у рупорний хвилевід. Особливістю пристрою є розширений до 35 кГц діапазон
+                  відтворюваних частот, що підвищує точність передавання тембру. Як середньо-низькочастотна ланка в
+                  кабінеті встановлений 8-дюймовий НЧ гучномовець, потужністю 75 Вт, навантажений на фазоінвертор.
+                  Наявність фронтально розташованого фазоінвертора дало змогу знизити вимоги до точності встановлення
+                  монітора в просторі та розширити нижню межу відтворення низьких частот до 45 Гц.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.989,
+        probability_in_absence: 0.108
+      },
+      2: {
+        probability_in_presence: 0.837,
+        probability_in_absence: 0.4109
+      },
+      3: {
+        probability_in_presence: 0.315,
+        probability_in_absence: 0.798
+      },
+      4: {
+        probability_in_presence: 0.538,
+        probability_in_absence: 0.307
+      },
+      5: {
+        probability_in_presence: 0.983,
+        probability_in_absence: 0.051
+      },
+      6: {
+        probability_in_presence: 0.978,
+        probability_in_absence: 0.063
+      },
+      7: {
+        probability_in_presence: 0.933,
+        probability_in_absence: 0.061
+      },
+      8: {
+        probability_in_presence: 0.722,
+        probability_in_absence: 0.229
+      },
+      9: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.999
+      },
+    }
+  },
+  {
+    id: 10,
+    producer: Yamaha,
+    model: HS7I,
+    image_id: AgADAgADG6kxG7l6WEgEWyG0avraF60MnA4ABLohYDNDvQABUkLoBAABAg,
+    description: "2-смугова система студійного моніторингу ближньої зони з роздільним посиленням. Під час вибору
+                  контрольного монітора для мікшування й записування музики основним критерієм є точність відтворення
+                  звуку. Колонки, які звучать добре, не обов'язково звучать точно. Головне, що потрібно під час
+                  мікшування звуку — це отримання точного, правильного передавання звучання результату вашої роботи,
+                  що не забезпечують колонки, які спотворюють або змінюють звучання на хибно неперевершене. На відміну
+                  від колонок-моніторів зі встановленим на максимум звучанням низьких і високих частот, що, на перший
+                  погляд, дає гарний тембр, але абсолютно не передає справжнього характеру звуку, колонки серії HS були
+                  розроблені як студійні монітори з абсолютно чистим передаванням звуку в найкращих традиціях
+                  легендарної серії Yamaha NS10M. Неважливо, чи виходить унаслідок мікшування стереозвук або
+                  тривимірний звук 5.1, якщо ці мікси звучать добре в моніторах Yamaha HS, вони будуть звучати добре
+                  в будь-яких відтворювальних системах…в перекладі з мови звукооператорів, це просто означає, що така
+                  музика звучатиме добре скрізь і в будь-якій апаратурі. У цьому й полягає призначення моніторних
+                  акустичних систем. Зауважте, що моніторні колонки серії HS прекрасні не тільки звуком, але зовні.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.9058,
+        probability_in_absence: 0.2399
+      },
+      2: {
+        probability_in_presence: 0.866,
+        probability_in_absence: 0.3909
+      },
+      3: {
+        probability_in_presence: 0.2191,
+        probability_in_absence: 0.7809
+      },
+      4: {
+        probability_in_presence: 0.498,
+        probability_in_absence: 0.305
+      },
+      5: {
+        probability_in_presence: 0.983,
+        probability_in_absence: 0.051
+      },
+      6: {
+        probability_in_presence: 0.978,
+        probability_in_absence: 0.063
+      },
+      7: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9998
+      },
+      8: {
+        probability_in_presence: 0.983,
+        probability_in_absence: 0.217
+      },
+      9: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.999
+      },
+    }
+  },
+  {
+    id: 11,
+    producer: Mackie,
+    model: CR5BT,
+    image_id: AgADAgADeqkxGwH_WEgizguF9dngt80orQ4ABOVfvhWtuaFGrQECAAEC,
+    description: "Mackie CR5BT — збалансовані монітори з чіткими високими частотами та точною серединою. Підходять для
+                  професійних і домашніх студій, домашніх кінотеатрів і мультимедійних застосунків. Модель CR5BT є
+                  частиною серії моніторів Creative Reference від виробника Mackie. До акустичної системи вбудований
+                  модуль Bluetooth 3.0, що дає змогу програвати аудіо з різних пристроїв. Монітори забезпечують рівну
+                  характеристику від ультранизьких басових до точних середніх і ясних високих частот, гарантують
+                  мінімальний вплив спотворень, артефактів і змін у частотній характеристиці під час роботи на різних
+                  рівнях гучності. Кабінети моніторів обладнані спеціально налаштованими портами фазоінверторів на
+                  задній панелі. Корпус виготовлений із МДФ, тому немає спотворень від руху повітря або вібрації.
+                  Перетворювачі не обмежуються тиском, і кабінети резонують на низьких частотах для глибшого,
+                  збалансованішого звучання баса.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.618,
+        probability_in_absence: 0.3799
+      },
+      2: {
+        probability_in_presence: 0.5109,
+        probability_in_absence: 0.3918
+      },
+      3: {
+        probability_in_presence: 0.1891,
+        probability_in_absence: 0.7909
+      },
+      4: {
+        probability_in_presence: 0.958,
+        probability_in_absence: 0.1905
+      },
+      5: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.9898
+      },
+      6: {
+        probability_in_presence: 0.978,
+        probability_in_absence: 0.163
+      },
+      7: {
+        probability_in_presence: 0.9879,
+        probability_in_absence: 0.256
+      },
+      8: {
+        probability_in_presence: 0.583,
+        probability_in_absence: 0.357
+      },
+      9: {
+        probability_in_presence: 0.99998,
+        probability_in_absence: 0.265
+      },
+    }
+  },
+  {
+    id: 12,
+    producer: Monkey Banana,
+    model: Silverback,
+    image_id: AgADAgADHKkxG7l6WEhkbqhEYbHAtNTJRg4ABNO9d-c5mnvg5IsCAAEC,
+    description: "Silverback поєднує в собі переваги типового коаксіального точкового джерела звуку з глибиною і об'ємом
+                  великих високочутливих перетворювачів в оригінальному міцному корпусі всередині якого розташувався DSP
+                  класу D, все в традиціях компанії Monkey Banana. Ці нові монітори дуже універсальні, а тому підійдуть
+                  для використання в студії в ролі моніторів ближнього поля, для мікшування треків, професійної гри ...
+                  або щоб розгойдати вечірку в скажених джунглях! Корпус складається з суцільної зігнутої панелі, яка
+                  сильно зменшує резонанс за рахунок товщини в 18 мм і матеріалу, а саме фанери з балтійської берези і
+                  все це становить асиметричний корпус з потужним акустичним демпфуванням.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.999,
+        probability_in_absence: 0.3759
+      },
+      2: {
+        probability_in_presence: 0.619,
+        probability_in_absence: 0.3518
+      },
+      3: {
+        probability_in_presence: 0.01891,
+        probability_in_absence: 0.9856
+      },
+      4: {
+        probability_in_presence: 0.995,
+        probability_in_absence: 0.205
+      },
+      5: {
+        probability_in_presence: 0.956,
+        probability_in_absence: 0.2898
+      },
+      6: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.968
+      },
+      7: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9863
+      },
+      8: {
+        probability_in_presence: 0.230,
+        probability_in_absence: 0.757
+      },
+      9: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.265
       },
     }
   },
