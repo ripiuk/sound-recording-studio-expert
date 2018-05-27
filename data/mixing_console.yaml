@@ -1,0 +1,114 @@
+questions: [
+  'Мікшерний пульт повинен мати велику кількість каналів?',
+  'Вам потрібен дешевий мікшерний пульт?',
+  'Вам потрібен компактний мікшерний пульт?',
+  'Мікшерний пульт повинен мати широкий діапазон частот (Гц)?',
+  'Мікшерний пульт повинен мати як мінімум 3-смуговий еквалайзер на СТЕРЕОканалах?',
+  'Мікшерний пульт повинен мати як мінімум 3-смуговий еквалайзер на МОНОканалах?',
+  'Вам потрібен XLR інтерфейс (на вхід, мікрофон)?',
+  'Вам потрібен jack інтерейс (на вхід, 1/4")?',
+  'Вам потрібен RCA інтерейс (на вхід, тюльпан)?',
+  'Вам потрібен USB інтерейс (на вхід)?',
+  'Вам потрібен XLR інтерфейс (на вихід)?',
+  'Вам потрібен jack інтерейс (на вихід, 1/4")?',
+  'Вам потрібен AUX інтерейс (на вихід, 1/8")?',
+  'Вам потрібен RCA інтерейс (на вихід, тюльпан)?',
+  'Вам потрібен USB інтерейс (на вихід)?',
+  'Вам потрібні вбудовані ефекти?',
+  'Мікшерний пульт повинен мати дисплей?',
+  'Вам потрібен аналоговий мікшерний пульт?',
+  'Вам потрібна тривала офіційна гарантія?',
+]
+# 1) Мікшерний пульт повинен мати велику кількість каналів? (3-30) (1=0.037)
+# 2) Вам потрібен дешевий мікшерний пульт? (1839-41159) (1=0,000026)
+outcomes: [
+  {
+    id: 1,
+    producer: Gatt Audio,
+    model: MX-5,
+    image_id: AgADAgADiKkxGwH_WEgL37Qb4ZLagwkZnA4ABHM3bWSnfA8riOsEAAEC,
+    description: "5-канальний (1 моно + 2 стерео) аналоговий мікшерний пульт Gatt Audio MX-5 серії MX. Пристрій
+                  наділений 2-смуговим еквалайзером на балансному мікрофонному вході XLR, а також регулятором посилення
+                  TRIM для налаштування вхідного сигналу. Є регулятори з незалежним налаштуванням рівня виходу на
+                  навушники та головного виходу. Мікшерний пульт Gatt Audio MX-5 комплектується блоком живлення.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.075,
+        probability_in_absence: 0.613
+      },
+      2: {
+        probability_in_presence: 0.983,
+        probability_in_absence: 0.3009
+      },
+      3: {
+        probability_in_presence: 0.908,
+        probability_in_absence: 0.219
+      },
+      4: {
+        probability_in_presence: 0.518,
+        probability_in_absence: 0.297
+      },
+      5: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9875
+      },
+      6: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9976
+      },
+      7: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.538
+      },
+      8: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.543
+      },
+      9: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.6108
+      },
+      10: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      11: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      12: {
+        probability_in_presence: 0.9985,
+        probability_in_absence: 0.7985
+      },
+      13: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      14: {
+        probability_in_presence: 0.9895,
+        probability_in_absence: 0.8359
+      },
+      15: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      16: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      17: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      18: {
+        probability_in_presence: 0.9895,
+        probability_in_absence: 0.7595
+      },
+      19: {
+        probability_in_presence: 0.259,
+        probability_in_absence: 0.7368
+      },
+    }
+  },
+]

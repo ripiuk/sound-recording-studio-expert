@@ -1,20 +1,20 @@
 import misc
 from bot import ExpertBotHandler
-from experts import AudioInterface, Soundproofing, Microphone, StudioMonitor
+from experts import AudioInterface, Soundproofing, Microphone, StudioMonitor, MixingConsole
 
 EQUIPMENTS = ({
         'Аудіо інтерфейс': AudioInterface,
         'Шумоізоляція': Soundproofing,
         'Мікрофон': Microphone,
         'Студійні монітори': StudioMonitor,
-        'Мікшерський пульт': None,
+        'Мікшерний пульт': MixingConsole,
         'Програмне забезпечення': None
     }, {
         'Audio interface': AudioInterface,
         'Soundproofing': Soundproofing,
         'Microphone': Microphone,
         'Studio monitor': StudioMonitor,
-        'Mixing console': None,
+        'Mixing console': MixingConsole,
         'Software': None
     })
 LIST_OF_ANSWERS = (('Ні', 'Швидше за все - ні', 'Не знаю', 'Швидше за все - так', 'Так'),
