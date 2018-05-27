@@ -111,4 +111,369 @@ outcomes: [
       },
     }
   },
+  {
+    id: 2,
+    producer: Mackie,
+    model: Mix5,
+    image_id: AgADAgADKakxG7l6WEhf3qoFCrYg3ly4mg4ABN08q-zLzj3VX-0EAAEC,
+    description: "Mackie Mix5 — призначена для користувачів з обмеженим бюджетом. Мікшер пропонує просту низку функцій
+                  і прекрасно підійде для виконавців, авторів пісень і вуличних музикантів, а також невеликих репетицій
+                  і заходів. Цей 5-канальний компактний мікшер обладнаний високоякісними компонентами та має компактний
+                  міцний металевий корпус.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.075,
+        probability_in_absence: 0.613
+      },
+      2: {
+        probability_in_presence: 0.951,
+        probability_in_absence: 0.3005
+      },
+      3: {
+        probability_in_presence: 0.913,
+        probability_in_absence: 0.22
+      },
+      4: {
+        probability_in_presence: 0.578,
+        probability_in_absence: 0.227
+      },
+      5: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9875
+      },
+      6: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9976
+      },
+      7: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.538
+      },
+      8: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.543
+      },
+      9: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.6108
+      },
+      10: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      11: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      12: {
+        probability_in_presence: 0.9985,
+        probability_in_absence: 0.7985
+      },
+      13: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      14: {
+        probability_in_presence: 0.9895,
+        probability_in_absence: 0.8359
+      },
+      15: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      16: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      17: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      18: {
+        probability_in_presence: 0.9895,
+        probability_in_absence: 0.7595
+      },
+      19: {
+        probability_in_presence: 0.259,
+        probability_in_absence: 0.7368
+      },
+    }
+  },
+  {
+    id: 3,
+    producer: SoundKing,
+    model: MIX02AU USB,
+    image_id: AgADAgADKqkxG7l6WEie_42L3nkOav6hmg4ABIBscgXEayU6uOoEAAEC,
+    description: "SoundKing MIX02AU — це високоякісний компактний 6-канальний мікшер із 2-смуговим еквалайзером на
+                  кожному каналі, регулюванням виходу на навушники, регулюванням вихідного рівня (L/R). Прекрасна якість
+                  збірки, співвідношення ціни та якості, цей мікшер пропонує те, що Ви зазвичай готові очікувати тільки
+                  від набагато дорожчих мікшерів. Попри свій невеликий розмір, SoundKing MIX02AU мікшер має всі
+                  необхідні функції. Порт USB означає, що Ви з легкістю можете під'єднати мікшер до комп'ютера для
+                  запису та відтворення, що прекрасно підходить для ді-джеїв, домашніх записів і для роботи
+                  з живим звуком.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.105,
+        probability_in_absence: 0.513
+      },
+      2: {
+        probability_in_presence: 0.941,
+        probability_in_absence: 0.3205
+      },
+      3: {
+        probability_in_presence: 0.903,
+        probability_in_absence: 0.25
+      },
+      4: {
+        probability_in_presence: 0.573,
+        probability_in_absence: 0.227
+      },
+      5: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9875
+      },
+      6: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9976
+      },
+      7: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.538
+      },
+      8: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.543
+      },
+      9: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.6108
+      },
+      10: {
+        probability_in_presence: 0.99989,
+        probability_in_absence: 0.5907
+      },
+      11: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      12: {
+        probability_in_presence: 0.9985,
+        probability_in_absence: 0.7985
+      },
+      13: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      14: {
+        probability_in_presence: 0.9895,
+        probability_in_absence: 0.8359
+      },
+      15: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      16: {
+        probability_in_presence: 0.0033,
+        probability_in_absence: 0.97989
+      },
+      17: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      18: {
+        probability_in_presence: 0.9895,
+        probability_in_absence: 0.7595
+      },
+      19: {
+        probability_in_presence: 0.249,
+        probability_in_absence: 0.7268
+      },
+    }
+  },
+  {
+    id: 4,
+    producer: ARCTIC,
+    model: MS602MUSB,
+    image_id: AgADAgADLqkxG7l6WEgW11ge5sV9OYyzqw4ABKFHBvlMOtd-zQUCAAEC,
+    description: "Компанія Arctic — один із перших виробників професійного аудіообладнання в Китаї. Бренд Arctic
+                  належить компанії Hangzhou Globe Broadcasting and Sound Co. Ltd, заснованій у 1993 році. Завдяки
+                  власним розробкам, кваліфікованому персоналу та використанню високоякісних матеріалів компанія Arctic
+                  є одним із лідерів проаудіоіндустрії Китаю. Високотехнологічні виробничі потужності (15.000 м²)
+                  розташовані в місті Гуанжоу, недалеко від Шанхая. Компактний мікшерний пульт із вбудованим
+                  медіаплеєром USB. Arctic MS602MUSB — це мініатюрний мікшер, обладнаний вбудованим USB- медіаплеєром,
+                  двома мікрофонними входами з малошумними передпідсилювачами, а завдяки вбудованому джерелу фантомного
+                  живлення ви можете використовувати його навіть із конденсаторними мікрофонами. Цей малюк прекрасно
+                  підійде для невеликих сольних концертів, караоке, проведення презентацій, вушного моніторингу під час
+                  виступів або для домашньої/мультимедійної студії.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.105,
+        probability_in_absence: 0.513
+      },
+      2: {
+        probability_in_presence: 0.931,
+        probability_in_absence: 0.3105
+      },
+      3: {
+        probability_in_presence: 0.903,
+        probability_in_absence: 0.25
+      },
+      4: {
+        probability_in_presence: 0.523,
+        probability_in_absence: 0.2307
+      },
+      5: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9875
+      },
+      6: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9976
+      },
+      7: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.538
+      },
+      8: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.543
+      },
+      9: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.6108
+      },
+      10: {
+        probability_in_presence: 0.0000001,
+        probability_in_absence: 0.997859
+      },
+      11: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      12: {
+        probability_in_presence: 0.9985,
+        probability_in_absence: 0.7985
+      },
+      13: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      14: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.9858
+      },
+      15: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      16: {
+        probability_in_presence: 0.1533,
+        probability_in_absence: 0.87989
+      },
+      17: {
+        probability_in_presence: 0.329,
+        probability_in_absence: 0.7598
+      },
+      18: {
+        probability_in_presence: 0.9895,
+        probability_in_absence: 0.7595
+      },
+      19: {
+        probability_in_presence: 0.259,
+        probability_in_absence: 0.72723
+      },
+    }
+  },
+  {
+    id: 5,
+    producer: Gatt Audio,
+    model: MX-6,
+    image_id: AgADAgADiqkxGwH_WEgWntgmz3L7tuEQnA4ABGvrDnoOCiSD1-MEAAEC,
+    description: "6-канальний (2 моно + 2 стерео) аналоговий мікшерний пульт Gatt Audio MX-6 серії MX. Пристрій має
+                  3-смуговий еквалайзер на кожному каналі. На моноканалах є фантомне живлення. Є регулятори з
+                  незалежним налаштуванням рівня повернення (AUX RETURN), головного виходу (MAIN) і виходу на навушники
+                  (CTRL ROOM/PHONES). Мікшерний пульт Gatt Audio MX-6 комплектується блоком живлення.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.105,
+        probability_in_absence: 0.513
+      },
+      2: {
+        probability_in_presence: 0.901,
+        probability_in_absence: 0.3235
+      },
+      3: {
+        probability_in_presence: 0.893,
+        probability_in_absence: 0.252
+      },
+      4: {
+        probability_in_presence: 0.527,
+        probability_in_absence: 0.2347
+      },
+      5: {
+        probability_in_presence: 0.9589,
+        probability_in_absence: 0.65798
+      },
+      6: {
+        probability_in_presence: 0.9589,
+        probability_in_absence: 0.65398
+      },
+      7: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.538
+      },
+      8: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.543
+      },
+      9: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.6108
+      },
+      10: {
+        probability_in_presence: 0.0000001,
+        probability_in_absence: 0.997859
+      },
+      11: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      12: {
+        probability_in_presence: 0.9985,
+        probability_in_absence: 0.7985
+      },
+      13: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      14: {
+        probability_in_presence: 0.9687,
+        probability_in_absence: 0.60589
+      },
+      15: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      16: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.95889
+      },
+      17: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.95879
+      },
+      18: {
+        probability_in_presence: 0.9895,
+        probability_in_absence: 0.7595
+      },
+      19: {
+        probability_in_presence: 0.255,
+        probability_in_absence: 0.73723
+      },
+    }
+  },
 ]
