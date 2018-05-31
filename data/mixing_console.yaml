@@ -476,4 +476,281 @@ outcomes: [
       },
     }
   },
+  {
+    id: 6,
+    producer: RCF,
+    model: LPAD6,
+    image_id: AgADAgADB6kxGwfNgEhOP68obFi4rF-zqw4ABCXncgRkknPCcyACAAEC,
+    description: "RCF LPAD6 — 6-канальний компактний високопродуктивний мікшерний пульт з унікальною конструкцією,
+                  що забезпечує зручність і естетику. Універсальний мікшер RCF LPAD6 підходить для живих виступів на
+                  сцені, для домашньої студії, конференц-залів, бібліотек, шкіл тощо Простий у встановленні
+                  (можна ставити на мікрофонну стійку).",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.115,
+        probability_in_absence: 0.523
+      },
+      2: {
+        probability_in_presence: 0.901,
+        probability_in_absence: 0.3235
+      },
+      3: {
+        probability_in_presence: 0.891,
+        probability_in_absence: 0.251
+      },
+      4: {
+        probability_in_presence: 0.597,
+        probability_in_absence: 0.2357
+      },
+      5: {
+        probability_in_presence: 0.0000001,
+        probability_in_absence: 0.9899999
+      },
+      6: {
+        probability_in_presence: 0.9589,
+        probability_in_absence: 0.65398
+      },
+      7: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.538
+      },
+      8: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.543
+      },
+      9: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.6108
+      },
+      10: {
+        probability_in_presence: 0.0000001,
+        probability_in_absence: 0.997859
+      },
+      11: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      12: {
+        probability_in_presence: 0.9985,
+        probability_in_absence: 0.7985
+      },
+      13: {
+        probability_in_presence: 0.99899,
+        probability_in_absence: 0.5897895
+      },
+      14: {
+        probability_in_presence: 0.9687,
+        probability_in_absence: 0.60589
+      },
+      15: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      16: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.95889
+      },
+      17: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.95879
+      },
+      18: {
+        probability_in_presence: 0.9895,
+        probability_in_absence: 0.7595
+      },
+      19: {
+        probability_in_presence: 0.855,
+        probability_in_absence: 0.33723
+      },
+    }
+  },
+  {
+    id: 7,
+    producer: Alto Professional,
+    model: ZMX862,
+    image_id: AgADAgAD-KgxG1RfgUidN6XZBbarCa4grQ4ABAjt_XpBdhQN4CECAAEC,
+    description: "Alto ZMX862 являє собою 6-канальний, 2-шинний мікшер з усіма входами, виходами, маршрутизацією,
+                  еквалайзером і ефектами, необхідними найкращого звучання. Він має два збалансовані мікрофонні входи
+                  з роз'ємами TRS, трисмуговий еквалайзер. Компактні розміри Alto ZMX862 є ідеальними для використання
+                  його в повсюдній професійній роботі. Універсальні входи та виходи Alto ZMX862 є універсальним для
+                  Вашого творчого життя. Мало того, що ви можете під'єднати динамічний, конденсаторний і бездротові
+                  мікрофони в перші чотири канали, Ви також отримуєте два стереовходи для клавіш, ударної установки
+                  або інших інструментів. Окрім того, ви можете легко під'єднати MP3-плеєр, CD-плеєр або аудіо з
+                  DVD-плеєра в CD/TAPE вхід. Висока динаміка, низький рівень шуму Цей компактний мікшер надає такий
+                  самий стандарт якості для вашого виступу, як і топові моделі. Візуалізуйте Ваш мікс Спеціально
+                  розроблений дизайн Alto ZMX862 допоможе Вам у роботі в темному приміщенні. Це вирішується завдяки
+                  колірному кодуванню кожної секції мікшера з використанням яскравої ручки, отже, Ви завжди можете
+                  легко знайти те, що вам потрібно налаштувати. Кольори на ручках легко визначити за тьмяного
+                  освітлення. Світлодіодні індикатори рівня вихідного сигналу, пік і фантомне живлення також
+                  допоможуть візуалізувати те, що Ви чуєте.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.117,
+        probability_in_absence: 0.522
+      },
+      2: {
+        probability_in_presence: 0.885,
+        probability_in_absence: 0.3335
+      },
+      3: {
+        probability_in_presence: 0.891,
+        probability_in_absence: 0.251
+      },
+      4: {
+        probability_in_presence: 0.597,
+        probability_in_absence: 0.2357
+      },
+      5: {
+        probability_in_presence: 0.9999989,
+        probability_in_absence: 0.75926
+      },
+      6: {
+        probability_in_presence: 0.955989,
+        probability_in_absence: 0.759824
+      },
+      7: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.538
+      },
+      8: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.543
+      },
+      9: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.6108
+      },
+      10: {
+        probability_in_presence: 0.0000001,
+        probability_in_absence: 0.997859
+      },
+      11: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      12: {
+        probability_in_presence: 0.9985,
+        probability_in_absence: 0.7985
+      },
+      13: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.98967
+      },
+      14: {
+        probability_in_presence: 0.9687,
+        probability_in_absence: 0.60589
+      },
+      15: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      16: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.95889
+      },
+      17: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.95879
+      },
+      18: {
+        probability_in_presence: 0.9895,
+        probability_in_absence: 0.7595
+      },
+      19: {
+        probability_in_presence: 0.5987,
+        probability_in_absence: 0.32723
+      },
+    }
+  },
+  {
+    id: 8,
+    producer: HL Audio,
+    model: SMR8,
+    image_id: AgADAgAD-6gxG1RfgUibL22H8gsVksefmg4ABMvTFou54hcuqg8FAAEC,
+    description: "Компактний мікшерний пульт із вбудованим медіаплеєром USB HL Audio SMR8 — це компактний мікшер з
+                  усіма необхідними входами, виходами, еквалайзером і вбудованим USB-медіаплеєром. Цей малюк
+                  прекрасно підійде для невеликих сольних концертів, караоке, проведення презентацій, вушного
+                  моніторингу під час виступів або для домашньої/мультимедійної студії.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.3259,
+        probability_in_absence: 0.522
+      },
+      2: {
+        probability_in_presence: 0.883,
+        probability_in_absence: 0.3339
+      },
+      3: {
+        probability_in_presence: 0.891,
+        probability_in_absence: 0.251
+      },
+      4: {
+        probability_in_presence: 0.797,
+        probability_in_absence: 0.2957
+      },
+      5: {
+        probability_in_presence: 0.000011,
+        probability_in_absence: 0.98657
+      },
+      6: {
+        probability_in_presence: 0.955989,
+        probability_in_absence: 0.759824
+      },
+      7: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.538
+      },
+      8: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.543
+      },
+      9: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.6108
+      },
+      10: {
+        probability_in_presence: 0.9867,
+        probability_in_absence: 0.68848
+      },
+      11: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      12: {
+        probability_in_presence: 0.9985,
+        probability_in_absence: 0.7985
+      },
+      13: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.98967
+      },
+      14: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.98672
+      },
+      15: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      16: {
+        probability_in_presence: 0.65187,
+        probability_in_absence: 0.32547
+      },
+      17: {
+        probability_in_presence: 0.8457,
+        probability_in_absence: 0.46478
+      },
+      18: {
+        probability_in_presence: 0.9895,
+        probability_in_absence: 0.7595
+      },
+      19: {
+        probability_in_presence: 0.3987,
+        probability_in_absence: 0.72723
+      },
+    }
+  },
 ]
