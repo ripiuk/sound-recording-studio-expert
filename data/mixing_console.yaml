@@ -753,4 +753,601 @@ outcomes: [
       },
     }
   },
+  {
+    id: 9,
+    producer: Soundcraft,
+    model: Notepad-5,
+    image_id: AgADAgAD3agxG1RfiUhP1Jw5D6som9y0qw4ABA4I82AJ_rK0RScCAAEC,
+    description: "Soundcraft Notepad-5 — це компактний 5-канальний мікшерний пульт, який надає легендарне звучання
+                  Soundcraft вашій музиці, подкастам або відео. Notepad-5 поєднує в собі професійні аналогові
+                  компоненти, відоме цифрове оброблення сигналів Harman і вбудований USB-аудіоінтерфейс для
+                  використання з вашим улюбленим програмним забезпеченням для редагування на Mac або ПК. Незалежно
+                  від того, є ви співаком чи подкастером, Notepad пропонує найкращі у своєму класі функції, серед
+                  яких відомі мікрофонні передпідсилювачі Soundcraft. Чудова якість звуку. традиція Soundcraft
+                  Упродовж понад 40 років багато звукорежисерів віддають перевагу рішенням від Soundcraft для
+                  досягнення високої якості звучання та надійної роботи. Пристрої серії Notepad продовжують цю
+                  традицію разом із професійними мікрофонними передпідсилювачами, зручними роз'ємами XLR та 1/4, а
+                  також міцними металевими корпусами, які витримають випробування часом. Неймовірна потужність і
+                  зручність Наявність 2-смугового еквалайзера на каналі 1 забезпечує високий рівень зручності
+                  налаштування, який часто трапляється виключно у великих консолях. Поворотний регулятор рівня
+                  сигналу в навушниках дає змогу швидко та легко налаштувати персональний моніторинг, тоді як ручка
+                  Master зі світлодіодною індикацією забезпечує точний контроль над основним вихідним сигналом.
+                  Призначена для домашніх студій, репетицій, живих виступів і створення подкастів, серія Notepad
+                  пропонує карту керування, знайому професіоналам у сфері аудіо й водночас зручну для початківців.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.075,
+        probability_in_absence: 0.613
+      },
+      2: {
+        probability_in_presence: 0.853,
+        probability_in_absence: 0.3439
+      },
+      3: {
+        probability_in_presence: 0.981,
+        probability_in_absence: 0.351
+      },
+      4: {
+        probability_in_presence: 0.637,
+        probability_in_absence: 0.357
+      },
+      5: {
+        probability_in_presence: 0.000011,
+        probability_in_absence: 0.98657
+      },
+      6: {
+        probability_in_presence: 0.0000001,
+        probability_in_absence: 0.989598
+      },
+      7: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.538
+      },
+      8: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.543
+      },
+      9: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.6108
+      },
+      10: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.97547
+      },
+      11: {
+        probability_in_presence: 0.9857,
+        probability_in_absence: 0.687984
+      },
+      12: {
+        probability_in_presence: 0.9985,
+        probability_in_absence: 0.7985
+      },
+      13: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.98967
+      },
+      14: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.98672
+      },
+      15: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      16: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.9856978
+      },
+      17: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.9875
+      },
+      18: {
+        probability_in_presence: 0.9895,
+        probability_in_absence: 0.7595
+      },
+      19: {
+        probability_in_presence: 0.3967,
+        probability_in_absence: 0.72793
+      },
+    }
+  },
+  {
+    id: 10,
+    producer: Yamaha,
+    model: MG06,
+    image_id: AgADAgADD6kxG7iqiEh46pSKsrKV-cv0mw4ABM073V0UK3CRxAcFAAEC,
+    description: "З інтуїтивним і простим у використанні інтерфейсом новий MG06 вирізняється 6 каналами та зручністю
+                  використання для найрізноманітніших завдань і користувачів. Незалежно від сфери застосування, чи то
+                  живі виступи, звукозапис, чи інсталяції, ця консоль дасть змогу працювати зі звуком із максимальною
+                  продуктивністю й неперевершеною в своєму класі якістю звучання. D-Pre (дискретні мікрофонні преампи
+                  Class A) Преампи працюють за інверсною схемою Дарлінгтона, що складається з двох транзисторів у
+                  послідовному ввімкненні, і забезпечує в підсумку збільшений рівень сигналу за більш низького
+                  імпедансу. Передаючи натуральний «жирний» бас і гладкі відкриті верхи з надмалим коефіцієнтом
+                  спотворення, преампи D-Pre здатні працювати в надзвичайно широкому діапазоні частот. У такий спосіб
+                  це говорить про здатність легко «перетравити» сигнал від будь-якого джерела без надмірного його
+                  «забарвлення», зберігаючи всі нюанси його оригінальної хвильової форми. Володіння такою «чистою»
+                  лінійною звуковою платформою заощадить ваш час, виключить зайву еквалізацію й обробку ефектами, часто
+                  необхідну для того, щоб «вилікувати» мікс. Високоякісні операційні підсилювачі Операційний підсилювач
+                  MG01 характеризується переробленою електричною схемою, у якій оптимізовані внутрішні компоненти та
+                  комутація з використанням високоякісної кремнієвої підкладки та мідної проводини для максимальної
+                  деталізації звучання.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.205,
+        probability_in_absence: 0.513
+      },
+      2: {
+        probability_in_presence: 0.803,
+        probability_in_absence: 0.3449
+      },
+      3: {
+        probability_in_presence: 0.931,
+        probability_in_absence: 0.451
+      },
+      4: {
+        probability_in_presence: 0.737,
+        probability_in_absence: 0.353
+      },
+      5: {
+        probability_in_presence: 0.000011,
+        probability_in_absence: 0.98657
+      },
+      6: {
+        probability_in_presence: 0.0000001,
+        probability_in_absence: 0.989598
+      },
+      7: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.538
+      },
+      8: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.543
+      },
+      9: {
+        probability_in_presence: 0.0000001,
+        probability_in_absence: 0.95687
+      },
+      10: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.97547
+      },
+      11: {
+        probability_in_presence: 0.9587,
+        probability_in_absence: 0.68984
+      },
+      12: {
+        probability_in_presence: 0.9985,
+        probability_in_absence: 0.7985
+      },
+      13: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.98967
+      },
+      14: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.98672
+      },
+      15: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      16: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.9856978
+      },
+      17: {
+        probability_in_presence: 0.65198,
+        probability_in_absence: 0.328
+      },
+      18: {
+        probability_in_presence: 0.9895,
+        probability_in_absence: 0.7595
+      },
+      19: {
+        probability_in_presence: 0.4167,
+        probability_in_absence: 0.72793
+      },
+    }
+  },
+  {
+    id: 11,
+    producer: Mackie,
+    model: ProFX4v2,
+    image_id: AgADAgAD36gxG1RfiUjxwGxKx_qm8ZQEnA4ABPwGQArPzxLApgcFAAEC,
+    description: "Mackie ProFX4v2 — 4-канальний мікшерний пульт, обладнаний зручною системою панорамування, фантомним
+                  живленням і високоякісним процесором. Вихідний еквалайзер дасть змогу гнучко відрегулювати звук у
+                  використовуваному оточенні. Серія мікшерів ProFXv2 присвячена живому звуку та має абсолютно нові
+                  передпідсилювачі Vita для безпрецедентної якості звуку й безкомпромісний набір інструментів для
+                  живого мікшування, включно з колосально потужним процесором ефектів ReadyFX. Нові передпідсилювачі
+                  та процесор ефектів плюс графічний еквалайзер — дійсно облагородять ваше живе виконання. VITA
+                  попередні Розроблено спеціально для живого звуку. Вони фактично безшумні та характеризуються
+                  дискретним Class-A дизайном, подвійною стабілізацією зворотного зв'язку й оптимізованим струмом
+                  зміщення для роботи з низьким рівнем шуму. Процесор ефектів ReadyFX Абсолютно новий процесор ефектів
+                  ReadyFX має рухому точку DSP і спеціально розроблений для інтенсивного оброблення високоякісного
+                  звуку. Як наслідок, багаті ефекти завжди готові облагородити ваше виконання і здивувати аудиторію.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.068,
+        probability_in_absence: 0.7854
+      },
+      2: {
+        probability_in_presence: 0.768,
+        probability_in_absence: 0.3459
+      },
+      3: {
+        probability_in_presence: 0.881,
+        probability_in_absence: 0.451
+      },
+      4: {
+        probability_in_presence: 0.7223,
+        probability_in_absence: 0.353
+      },
+      5: {
+        probability_in_presence: 0.000011,
+        probability_in_absence: 0.98657
+      },
+      6: {
+        probability_in_presence: 0.0000001,
+        probability_in_absence: 0.989598
+      },
+      7: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.538
+      },
+      8: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.543
+      },
+      9: {
+        probability_in_presence: 0.985978,
+        probability_in_absence: 0.78945
+      },
+      10: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.97547
+      },
+      11: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.998798
+      },
+      12: {
+        probability_in_presence: 0.9985,
+        probability_in_absence: 0.7985
+      },
+      13: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.98967
+      },
+      14: {
+        probability_in_presence: 0.98987,
+        probability_in_absence: 0.789165
+      },
+      15: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.99989
+      },
+      16: {
+        probability_in_presence: 0.985654,
+        probability_in_absence: 0.44687
+      },
+      17: {
+        probability_in_presence: 0.65998,
+        probability_in_absence: 0.388
+      },
+      18: {
+        probability_in_presence: 0.9895,
+        probability_in_absence: 0.7595
+      },
+      19: {
+        probability_in_presence: 0.4267,
+        probability_in_absence: 0.72393
+      },
+    }
+  },
+  {
+    id: 12,
+    producer: Yamaha,
+    model: AG03,
+    image_id: AgADAgADEqkxG7iqiEi6U5mfWHdvMJm0qw4ABPgLqRq_AAE-8kwqAgABAg,
+    description: "Мікшерний пульт Yamaha AG03 створено спеціально для музикантів, шанувальників комп'ютерних ігор, а
+                  також для виробництва подкастів і проведення онлайн-трансляцій. Пульт дає змогу виробляти високоякісні
+                  аудіозапис/відтворення й сумісний з PC/Mac і iPad пристроями. Особливістю є інтуїтивно зрозумілий
+                  перемикач 'TO PC', що дає змогу вибирати, які саме входи будуть відправлені в комп'ютер або iOS
+                  пристрій. Режим 'Dry CH 1-2' дає змогу передавати через USB тільки канали 1 і 2, у той час як у
+                  режимі 'Input Mix' будуть передаватися всі входи мікшера. Функція Looback чудово підійде прихильникам
+                  подкастів. З її допомогою ви зможете проводити онлайн-трансляцію, використовуючи всі джерела сигналу,
+                  під'єднані до мікшера, одночасно з фоновою музикою, переданою через USB з вашого комп'ютера на базі
+                  Windows/Mac або навіть з iPad. Шанувальники комп'ютерних ігор теж залишаться задоволені: спеціальні
+                  роз'єми для гарнітури та зручне керування дають змогу не запускати зайвий раз контрольну панель
+                  звукової карти та зосередитися на грі. Мікрофонні передпосилювачі D-Pre Мікшерний пульт обладнується
+                  високоякісними дискретними преампами D-Pre студійного рівня типу Class A, розробленими Yamaha.
+                  Преампи працюють за інверсною схемою Дарлінгтона, що складається з двох транзисторів у послідовному
+                  ввімкненні, і забезпечує в підсумку збільшений рівень сигналу за більш низького імпедансу. Передаючи
+                  натуральний бас і гладкі відкриті верхи з дуже малим коефіцієнтом спотворень, преампи D-Pre здатні
+                  працювати в надзвичайно широкому діапазоні частот. Завдяки вбудованому фантомному живленню ви маєте
+                  змогу використовувати безмежну кількість мікрофонів, включно з професійними студійними конденсаторними
+                  мікрофонами. Hi-Z входи дають змогу під'єднувати електрогітари, бас-гітари, синтезатори й безліч інших
+                  інструментів. Оброблення 1-Touch DSP дає змогу домогтися професійного звучання в один дотик Yamaha
+                  AG03 обладнаний процесором ефектів 1-Touch DSP, що використовує фірмову технологію оброблення сигналу
+                  Yamaha. Перемикач COMP/EQ дає змогу відшліфувати тембр вашого звучання, а кнопка Effect доповнить його
+                  просторовою реверберацією. Мультиплатформний (Windows/MAC) застосунок AG DSP Controller дає вам змогу
+                  редагувати додаткові параметри компресора, еквалайзера, ефектів і Amp Sim. Режим Easy відрізняється
+                  дружнім, інтуїтивно зрозумілим інтерфейсом, у той час як режим Expert дає користувачеві змогу
+                  редагувати більшу кількість параметрів.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.9856
+      },
+      2: {
+        probability_in_presence: 0.708,
+        probability_in_absence: 0.3559
+      },
+      3: {
+        probability_in_presence: 0.899,
+        probability_in_absence: 0.451
+      },
+      4: {
+        probability_in_presence: 0.8723,
+        probability_in_absence: 0.393
+      },
+      5: {
+        probability_in_presence: 0.000011,
+        probability_in_absence: 0.98657
+      },
+      6: {
+        probability_in_presence: 0.0000001,
+        probability_in_absence: 0.989598
+      },
+      7: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.538
+      },
+      8: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.543
+      },
+      9: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.98549
+      },
+      10: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.97547
+      },
+      11: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.998798
+      },
+      12: {
+        probability_in_presence: 0.9985,
+        probability_in_absence: 0.7985
+      },
+      13: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.98967
+      },
+      14: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.989567
+      },
+      15: {
+        probability_in_presence: 0.989874,
+        probability_in_absence: 0.45687
+      },
+      16: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.987541
+      },
+      17: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.989847
+      },
+      18: {
+        probability_in_presence: 0.9895,
+        probability_in_absence: 0.7595
+      },
+      19: {
+        probability_in_presence: 0.4277,
+        probability_in_absence: 0.72393
+      },
+    }
+  },
+  {
+    id: 13,
+    producer: Mackie,
+    model: 802VLZ4,
+    image_id: AgADAgADFqkxG7iqiEhghx0mH3AjRxvHRg4ABdYamCcVmVT_tgIAAQI,
+    description: "Новий компактний восьмиканальний мікшерний пульт 802VLZ4 від компанії Mackie. Особливість його в тому,
+                  що в цій моделі вдалося знизити рівень шуму завдяки мікрофонним передпідсилювачам. Новий еквалайзер
+                  потішить Вас своєю якістю. Маючи всі необхідні для роботи інструменти, 802VLZ4 дає змогу створювати
+                  незабутні мікси. Міцний фірмовий корпус Mackie. Кольорові регулятори мікшера дають змогу працювати
+                  навіть у приміщеннях із приглушеним світлом. Граматичні кругові регулятори захищають від
+                  пилу та забруднень.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.5259,
+        probability_in_absence: 0.402
+      },
+      2: {
+        probability_in_presence: 0.628,
+        probability_in_absence: 0.3759
+      },
+      3: {
+        probability_in_presence: 0.679,
+        probability_in_absence: 0.451
+      },
+      4: {
+        probability_in_presence: 0.7823,
+        probability_in_absence: 0.399
+      },
+      5: {
+        probability_in_presence: 0.998894,
+        probability_in_absence: 0.687984
+      },
+      6: {
+        probability_in_presence: 0.87984,
+        probability_in_absence: 0.65487
+      },
+      7: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.538
+      },
+      8: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.543
+      },
+      9: {
+        probability_in_presence: 0.999156,
+        probability_in_absence: 0.687451
+      },
+      10: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.97547
+      },
+      11: {
+        probability_in_presence: 0.98984,
+        probability_in_absence: 0.7564987
+      },
+      12: {
+        probability_in_presence: 0.9985,
+        probability_in_absence: 0.7985
+      },
+      13: {
+        probability_in_presence: 0.0001,
+        probability_in_absence: 0.98967
+      },
+      14: {
+        probability_in_presence: 0.987548,
+        probability_in_absence: 0.687984
+      },
+      15: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.984518
+      },
+      16: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.987541
+      },
+      17: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.989847
+      },
+      18: {
+        probability_in_presence: 0.9895,
+        probability_in_absence: 0.7595
+      },
+      19: {
+        probability_in_presence: 0.4367,
+        probability_in_absence: 0.754893
+      },
+    }
+  },
+  {
+    id: 14,
+    producer: Mackie,
+    model: ProDx4,
+    image_id: AgADAgADF6kxG7iqiEgBYZm4cA1evdTKrA4ABFN3w0hnxnRLpykCAAEC,
+    description: "Mackie ProDX4 — це цифровий 4-канальний мікшер із компактним дизайном, який забезпечує потужні
+                  можливості змішування з бездротовим керуванням і потоковим передаванням через Bluetooth. Пристрій
+                  прекрасно підходить для сольних виконавців, невеликих груп, об'єктів і комерційних застосувань.
+                  Завдяки застосунку MixerConnect, розробленим Mackie, ви зможете керувати мікшером з iOS або Android
+                  смартфона. Завдяки вбудованому процесору обробки, ви отримуєте еквалайзер, компресор і безліч ефектів
+                  ReadyFX. Підключайте свої мікрофони, гітари, клавішні та медіапрогравачі, використовуючи пару входів
+                  Mackie Wide-Z і 1/8 стереовхід. Головні виходи L/R забезпечують надійний зв'язок із вашими PA
+                  гучномовцями або підсилювачем потужності. Використовуючи Aux посил, ви зможете отримати
+                  персоналізований моніторинг або окрему зону міксу. Для тихої роботи передбачений зручний вихід на
+                  навушники. Mackie ProDX4 є повноцінним цифровим мікшером. Кожен канал обладнаний 3-смуговим
+                  еквалайзером із високочастотним фільтром для корекції звучання, а також компресією для додавання
+                  панча інструментів і вокалу. Великий набір ефектів ReadyFX, який включає дилей, хорус, реверберацію
+                  й інші, поставить фінальні штрихи у вашому міксі. Виходи ProDX4 також наділені графічним еквалайзером
+                  для більш глибокого й тонкого налаштування.",
+    priori_probability: 0.083,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.068,
+        probability_in_absence: 0.7854
+      },
+      2: {
+        probability_in_presence: 0.6012,
+        probability_in_absence: 0.4559
+      },
+      3: {
+        probability_in_presence: 0.979,
+        probability_in_absence: 0.591
+      },
+      4: {
+        probability_in_presence: 0.6823,
+        probability_in_absence: 0.399
+      },
+      5: {
+        probability_in_presence: 0.998894,
+        probability_in_absence: 0.687984
+      },
+      6: {
+        probability_in_presence: 0.87984,
+        probability_in_absence: 0.65487
+      },
+      7: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.538
+      },
+      8: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.543
+      },
+      9: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.984568
+      },
+      10: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.97547
+      },
+      11: {
+        probability_in_presence: 0.98984,
+        probability_in_absence: 0.7564987
+      },
+      12: {
+        probability_in_presence: 0.9985,
+        probability_in_absence: 0.7985
+      },
+      13: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.096548
+      },
+      14: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.987954
+      },
+      15: {
+        probability_in_presence: 0.99845,
+        probability_in_absence: 0.549851
+      },
+      16: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.987541
+      },
+      17: {
+        probability_in_presence: 0.5468,
+        probability_in_absence: 0.2467
+      },
+      18: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.98745
+      },
+      19: {
+        probability_in_presence: 0.4367,
+        probability_in_absence: 0.754893
+      },
+    }
+  },
 ]
