@@ -31,7 +31,7 @@ outcomes: [
                   наділений 2-смуговим еквалайзером на балансному мікрофонному вході XLR, а також регулятором посилення
                   TRIM для налаштування вхідного сигналу. Є регулятори з незалежним налаштуванням рівня виходу на
                   навушники та головного виходу. Мікшерний пульт Gatt Audio MX-5 комплектується блоком живлення.",
-    priori_probability: 0.083,
+    priori_probability: 0.058,
     questions_estimation: {
       1: {
         probability_in_presence: 0.075,
@@ -120,7 +120,7 @@ outcomes: [
                   і прекрасно підійде для виконавців, авторів пісень і вуличних музикантів, а також невеликих репетицій
                   і заходів. Цей 5-канальний компактний мікшер обладнаний високоякісними компонентами та має компактний
                   міцний металевий корпус.",
-    priori_probability: 0.083,
+    priori_probability: 0.058,
     questions_estimation: {
       1: {
         probability_in_presence: 0.075,
@@ -212,7 +212,7 @@ outcomes: [
                   необхідні функції. Порт USB означає, що Ви з легкістю можете під'єднати мікшер до комп'ютера для
                   запису та відтворення, що прекрасно підходить для ді-джеїв, домашніх записів і для роботи
                   з живим звуком.",
-    priori_probability: 0.083,
+    priori_probability: 0.058,
     questions_estimation: {
       1: {
         probability_in_presence: 0.105,
@@ -307,7 +307,7 @@ outcomes: [
                   живлення ви можете використовувати його навіть із конденсаторними мікрофонами. Цей малюк прекрасно
                   підійде для невеликих сольних концертів, караоке, проведення презентацій, вушного моніторингу під час
                   виступів або для домашньої/мультимедійної студії.",
-    priori_probability: 0.083,
+    priori_probability: 0.058,
     questions_estimation: {
       1: {
         probability_in_presence: 0.105,
@@ -396,7 +396,7 @@ outcomes: [
                   3-смуговий еквалайзер на кожному каналі. На моноканалах є фантомне живлення. Є регулятори з
                   незалежним налаштуванням рівня повернення (AUX RETURN), головного виходу (MAIN) і виходу на навушники
                   (CTRL ROOM/PHONES). Мікшерний пульт Gatt Audio MX-6 комплектується блоком живлення.",
-    priori_probability: 0.083,
+    priori_probability: 0.058,
     questions_estimation: {
       1: {
         probability_in_presence: 0.105,
@@ -485,7 +485,7 @@ outcomes: [
                   що забезпечує зручність і естетику. Універсальний мікшер RCF LPAD6 підходить для живих виступів на
                   сцені, для домашньої студії, конференц-залів, бібліотек, шкіл тощо Простий у встановленні
                   (можна ставити на мікрофонну стійку).",
-    priori_probability: 0.083,
+    priori_probability: 0.058,
     questions_estimation: {
       1: {
         probability_in_presence: 0.115,
@@ -584,7 +584,7 @@ outcomes: [
                   легко знайти те, що вам потрібно налаштувати. Кольори на ручках легко визначити за тьмяного
                   освітлення. Світлодіодні індикатори рівня вихідного сигналу, пік і фантомне живлення також
                   допоможуть візуалізувати те, що Ви чуєте.",
-    priori_probability: 0.083,
+    priori_probability: 0.058,
     questions_estimation: {
       1: {
         probability_in_presence: 0.117,
@@ -673,7 +673,7 @@ outcomes: [
                   усіма необхідними входами, виходами, еквалайзером і вбудованим USB-медіаплеєром. Цей малюк
                   прекрасно підійде для невеликих сольних концертів, караоке, проведення презентацій, вушного
                   моніторингу під час виступів або для домашньої/мультимедійної студії.",
-    priori_probability: 0.083,
+    priori_probability: 0.058,
     questions_estimation: {
       1: {
         probability_in_presence: 0.3259,
@@ -774,7 +774,7 @@ outcomes: [
                   Master зі світлодіодною індикацією забезпечує точний контроль над основним вихідним сигналом.
                   Призначена для домашніх студій, репетицій, живих виступів і створення подкастів, серія Notepad
                   пропонує карту керування, знайому професіоналам у сфері аудіо й водночас зручну для початківців.",
-    priori_probability: 0.083,
+    priori_probability: 0.058,
     questions_estimation: {
       1: {
         probability_in_presence: 0.075,
@@ -874,7 +874,7 @@ outcomes: [
                   MG01 характеризується переробленою електричною схемою, у якій оптимізовані внутрішні компоненти та
                   комутація з використанням високоякісної кремнієвої підкладки та мідної проводини для максимальної
                   деталізації звучання.",
-    priori_probability: 0.083,
+    priori_probability: 0.058,
     questions_estimation: {
       1: {
         probability_in_presence: 0.205,
@@ -970,7 +970,7 @@ outcomes: [
                   зміщення для роботи з низьким рівнем шуму. Процесор ефектів ReadyFX Абсолютно новий процесор ефектів
                   ReadyFX має рухому точку DSP і спеціально розроблений для інтенсивного оброблення високоякісного
                   звуку. Як наслідок, багаті ефекти завжди готові облагородити ваше виконання і здивувати аудиторію.",
-    priori_probability: 0.083,
+    priori_probability: 0.058,
     questions_estimation: {
       1: {
         probability_in_presence: 0.068,
@@ -1080,7 +1080,7 @@ outcomes: [
                   редагувати додаткові параметри компресора, еквалайзера, ефектів і Amp Sim. Режим Easy відрізняється
                   дружнім, інтуїтивно зрозумілим інтерфейсом, у той час як режим Expert дає користувачеві змогу
                   редагувати більшу кількість параметрів.",
-    priori_probability: 0.083,
+    priori_probability: 0.058,
     questions_estimation: {
       1: {
         probability_in_presence: 0.0001,
@@ -1171,7 +1171,7 @@ outcomes: [
                   незабутні мікси. Міцний фірмовий корпус Mackie. Кольорові регулятори мікшера дають змогу працювати
                   навіть у приміщеннях із приглушеним світлом. Граматичні кругові регулятори захищають від
                   пилу та забруднень.",
-    priori_probability: 0.083,
+    priori_probability: 0.058,
     questions_estimation: {
       1: {
         probability_in_presence: 0.5259,
@@ -1270,7 +1270,7 @@ outcomes: [
                   панча інструментів і вокалу. Великий набір ефектів ReadyFX, який включає дилей, хорус, реверберацію
                   й інші, поставить фінальні штрихи у вашому міксі. Виходи ProDX4 також наділені графічним еквалайзером
                   для більш глибокого й тонкого налаштування.",
-    priori_probability: 0.083,
+    priori_probability: 0.058,
     questions_estimation: {
       1: {
         probability_in_presence: 0.068,
@@ -1347,6 +1347,309 @@ outcomes: [
       19: {
         probability_in_presence: 0.4367,
         probability_in_absence: 0.754893
+      },
+    }
+  },
+  {
+    id: 15,
+    producer: Soundcraft,
+    model: Signature 12,
+    image_id: AgADAgADdKsxG0Jy6UgAAafb452EXjfMzawOAATgoa4v49rMBwpwAgABAg,
+    description: "Мікшерний пульт Soundcraft Signature 12 поєднує якісний звук світового класу з величезним набором
+                  сучасних функцій. Використовуючи той же дизайн, що й у найкращих консолей за всю їхню історію,
+                  компанія Soundcraft обладнала новий мікшер знаковими мікрофонними передпідсилювачами Ghost, надаючи
+                  надзвичайний хедрум, широкий динамічний діапазон і виняткову чіткість. Ви також отримуєте вбудований
+                  британський еквалайзер, ефекти студійної якості від Lexicon і чудові лімітери від DBX. На додаток,
+                  цей аналоговий мікшерний пульт надає 2 канали USB з'єднань, які дають змогу записувати ваші виступи.
+                  Мікшерний пульт Signature 12 використовує ті ж легендарні мікрофонні передпідсилювачі, які
+                  використовували в топових консолях від Soundcraft. Завдяки цьому ви отримуєте величезний запас
+                  динамічного діапазону, первісну чіткість із надзвичайним співвідношенням сигнал-шум. Кожен
+                  передпідсилювач обладнано Sapphyre Assymetric еквалайзером, який дає змогу ідеально вирівняти кожен
+                  елемент міксу. Завдяки якісним ефектам від Lexicon мікшер Soundcraft Signature 12 дає змогу додати
+                  звучанню реверберації, хорусу, модуляції й багато іншого. Разом із цим ви отримаєте стандартні DBX
+                  обмежувачі на вхідних каналах, щоб контролювати рівень сигналу. Пристрій надає аудіомаршрутизацію
+                  GB-серії з гнучким Pre/Post перемиканням на кожній шині AUX. У вашому розпорядженні будуть Hi-Z входи,
+                  високочастотні фільтри та фантомне живлення на кожному каналі. Мікшерний пульт має міцний металевий
+                  корпус, виготовлений із використанням високоякісних компонентів, і вбудований універсальний блок
+                  живлення.",
+    priori_probability: 0.058,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.86541,
+        probability_in_absence: 0.2546
+      },
+      2: {
+        probability_in_presence: 0.3687,
+        probability_in_absence: 0.75156
+      },
+      3: {
+        probability_in_presence: 0.2567487,
+        probability_in_absence: 0.68754
+      },
+      4: {
+        probability_in_presence: 0.7823,
+        probability_in_absence: 0.399
+      },
+      5: {
+        probability_in_presence: 0.998894,
+        probability_in_absence: 0.687984
+      },
+      6: {
+        probability_in_presence: 0.97984,
+        probability_in_absence: 0.65487
+      },
+      7: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.538
+      },
+      8: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.543
+      },
+      9: {
+        probability_in_presence: 0.9898752,
+        probability_in_absence: 0.56518
+      },
+      10: {
+        probability_in_presence: 0.9998548,
+        probability_in_absence: 0.354878
+      },
+      11: {
+        probability_in_presence: 0.98984,
+        probability_in_absence: 0.7564987
+      },
+      12: {
+        probability_in_presence: 0.9985,
+        probability_in_absence: 0.7985
+      },
+      13: {
+        probability_in_presence: 0.00000198,
+        probability_in_absence: 0.98897852
+      },
+      14: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.987954
+      },
+      15: {
+        probability_in_presence: 0.0000015,
+        probability_in_absence: 0.98454
+      },
+      16: {
+        probability_in_presence: 0.9898754,
+        probability_in_absence: 0.35687
+      },
+      17: {
+        probability_in_presence: 0.000001,
+        probability_in_absence: 0.984587
+      },
+      18: {
+        probability_in_presence: 0.9889754,
+        probability_in_absence: 0.652978
+      },
+      19: {
+        probability_in_presence: 0.4397,
+        probability_in_absence: 0.554893
+      },
+    }
+  },
+  {
+    id: 16,
+    producer: Yamaha,
+    model: MG20,
+    image_id: AgADAgADdasxG0Jy6UjP5lPzKfqyyaa2qw4ABHUPffPBECCwaXUCAAEC,
+    description: "З інтуїтивним і простим у використанні інтерфейсом новий MG20 відрізняється 20 каналами та зручністю
+                  у використанні для найрізноманітніших завдань і користувачів. Незалежно від сфери застосування, чи то
+                  живі виступи, звукозапис, чи інсталяції, ця консоль дасть змогу працювати зі звуком із максимальною
+                  продуктивністю й неперевершеною в своєму класі якістю звучання. D-Pre (дискретні мікрофонні преампи
+                  Class A) Преампи працюють за інверсною схемою Дарлінгтона, що складається з двох транзисторів у
+                  послідовному ввімкненні, і забезпечує в підсумку збільшений рівень сигналу за більш низького імпедансу.
+                  Передаючи натуральний «жирний» бас і гладкі відкриті верхи з надмалим коефіцієнтом спотворення,
+                  преампи D-Pre здатні працювати в надзвичайно широкому діапазоні частот. У такий спосіб це говорить про
+                  здатність легко «перетравити» сигнал від будь-якого джерела без надмірного його «забарвлення»,
+                  зберігаючи всі нюанси його оригінальної хвильової форми. Володіння такою «чистою» лінійною звуковою
+                  платформою заощадить ваш час, виключить зайву еквалізацію й обробку ефектами, часто необхідну для
+                  того, щоб «вилікувати» мікс. Високоякісні операційні підсилювачі Операційний підсилювач MG01
+                  характеризується переробленою електричною схемою, у якій оптимізовані внутрішні компоненти та
+                  комутація з використанням високоякісної кремнієвої підкладки та мідної проводини для максимальної
+                  деталізації звучання.",
+    priori_probability: 0.058,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.91541,
+        probability_in_absence: 0.2546
+      },
+      2: {
+        probability_in_presence: 0.1087,
+        probability_in_absence: 0.85156
+      },
+      3: {
+        probability_in_presence: 0.1507487,
+        probability_in_absence: 0.78754
+      },
+      4: {
+        probability_in_presence: 0.8823,
+        probability_in_absence: 0.399
+      },
+      5: {
+        probability_in_presence: 0.998894,
+        probability_in_absence: 0.687984
+      },
+      6: {
+        probability_in_presence: 0.97984,
+        probability_in_absence: 0.65487
+      },
+      7: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.538
+      },
+      8: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.543
+      },
+      9: {
+        probability_in_presence: 0.9898752,
+        probability_in_absence: 0.56518
+      },
+      10: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.9898756
+      },
+      11: {
+        probability_in_presence: 0.98984,
+        probability_in_absence: 0.7564987
+      },
+      12: {
+        probability_in_presence: 0.9985,
+        probability_in_absence: 0.7985
+      },
+      13: {
+        probability_in_presence: 0.00000198,
+        probability_in_absence: 0.98897852
+      },
+      14: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.987954
+      },
+      15: {
+        probability_in_presence: 0.0000015,
+        probability_in_absence: 0.98454
+      },
+      16: {
+        probability_in_presence: 0.20197,
+        probability_in_absence: 0.856687
+      },
+      17: {
+        probability_in_presence: 0.98875,
+        probability_in_absence: 0.39874
+      },
+      18: {
+        probability_in_presence: 0.9889754,
+        probability_in_absence: 0.652978
+      },
+      19: {
+        probability_in_presence: 0.7397,
+        probability_in_absence: 0.554893
+      },
+    }
+  },
+  {
+    id: 17,
+    producer: Mackie,
+    model: ProFX30v2,
+    image_id: AgADAgADuakxGywI6EgkK16pDyWR7nIkrQ4ABAncYaxFXfHO3m0CAAEC,
+    description: "Mackie ProFX30v2 — 30-канальний мікшерний пульт, обладнаний зручною системою панорамування,
+                  фантомним живленням і високоякісним процесором. Вихідний еквалайзер дасть змогу гнучко відрегулювати
+                  звук у використовуваному оточенні. Серія мікшерів ProFXv2 присвячена живому звуку та має абсолютно
+                  нові передпідсилювачі Vita для безпрецедентної якості звуку й безкомпромісний набір інструментів для
+                  живого мікшування, включно з колосально потужним процесором ефектів ReadyFX. Нові передпідсилювачі
+                  та процесор ефектів плюс графічний еквалайзер — дійсно облагородять ваше живе виконання.
+                  Передпідсилювачі Vita Розроблено спеціально для живого звуку. Вони фактично безшумні та
+                  характеризуються дискретним Class-A дизайном, подвійною стабілізацією зворотного зв'язку й
+                  оптимізованим струмом зміщення для роботи з низьким рівнем шуму. Процесор ефектів ReadyFX Абсолютно
+                  новий процесор ефектів ReadyFX має рухому точку DSP і спеціально розроблений для інтенсивного
+                  оброблення високоякісного звуку. Як наслідок, багаті ефекти завжди готові облагородити ваше виконання
+                  і здивувати аудиторію. Набір інструментів для живого мікшування Кожна модель ProFXv2 має достатній
+                  набір інструментів: від звичайного багатосмугового графічного еквалайзера до розумних функцій подібних
+                  Channel Inserts і FX Mute з футсвітчем. USB записування/відтворення Вбудований USB-інтерфейс допоможе
+                  під час записування міксів або відтворення музики на концерті. Для записування в комплект включено
+                  легке у використанні програмне забезпечення Tracktion.",
+    priori_probability: 0.058,
+    questions_estimation: {
+      1: {
+        probability_in_presence: 0.99999999,
+        probability_in_absence: 0.0000001
+      },
+      2: {
+        probability_in_presence: 0.000000001,
+        probability_in_absence: 0.99999999
+      },
+      3: {
+        probability_in_presence: 0.00000001,
+        probability_in_absence: 0.99999999
+      },
+      4: {
+        probability_in_presence: 0.99999,
+        probability_in_absence: 0.32158
+      },
+      5: {
+        probability_in_presence: 0.998894,
+        probability_in_absence: 0.587984
+      },
+      6: {
+        probability_in_presence: 0.97984,
+        probability_in_absence: 0.55487
+      },
+      7: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.538
+      },
+      8: {
+        probability_in_presence: 0.9999,
+        probability_in_absence: 0.543
+      },
+      9: {
+        probability_in_presence: 0.9898752,
+        probability_in_absence: 0.56518
+      },
+      10: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.9898756
+      },
+      11: {
+        probability_in_presence: 0.00001,
+        probability_in_absence: 0.9988979
+      },
+      12: {
+        probability_in_presence: 0.9985,
+        probability_in_absence: 0.7985
+      },
+      13: {
+        probability_in_presence: 0.00000198,
+        probability_in_absence: 0.98897852
+      },
+      14: {
+        probability_in_presence: 0.98982,
+        probability_in_absence: 0.3745689
+      },
+      15: {
+        probability_in_presence: 0.99995,
+        probability_in_absence: 0.456872
+      },
+      16: {
+        probability_in_presence: 0.985654,
+        probability_in_absence: 0.3578
+      },
+      17: {
+        probability_in_presence: 0.98875,
+        probability_in_absence: 0.39874
+      },
+      18: {
+        probability_in_presence: 0.9889754,
+        probability_in_absence: 0.652978
+      },
+      19: {
+        probability_in_presence: 0.9397,
+        probability_in_absence: 0.554893
       },
     }
   },
