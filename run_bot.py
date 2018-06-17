@@ -1,19 +1,21 @@
 import misc
 from bot import ExpertBotHandler
-from experts import AudioInterface, Soundproofing
+from experts import AudioInterface, Soundproofing, Microphone, StudioMonitor, MixingConsole, Software
 
 EQUIPMENTS = ({
         'Аудіо інтерфейс': AudioInterface,
         'Шумоізоляція': Soundproofing,
-        'Мікрофон': None,
-        'Студійні монітори': None,
-        'Мікшерський пульт': None
+        'Мікрофон': Microphone,
+        'Студійні монітори': StudioMonitor,
+        'Мікшерний пульт': MixingConsole,
+        'Програмне забезпечення': Software
     }, {
         'Audio interface': AudioInterface,
         'Soundproofing': Soundproofing,
-        'Microphone': None,
-        'Studio monitor': None,
-        'Mixing console': None
+        'Microphone': Microphone,
+        'Studio monitor': StudioMonitor,
+        'Mixing console': MixingConsole,
+        'Software': Software
     })
 LIST_OF_ANSWERS = (('Ні', 'Швидше за все - ні', 'Не знаю', 'Швидше за все - так', 'Так'),
                    ('No', 'Probably no', 'Don\'t know', 'Probably', 'Yes'))
@@ -34,8 +36,8 @@ SETTINGS_TEXT = ('Оберіть мову (лише для навігації)',
                  'Here you can choose a language that you prefer (for navigation only)')
 NOT_AVAILABLE_TEXT = ('Ви не можете використовувати команди під час опитування.',
                       'All commands are not available during the quiz.')
-RESULT_MESSAGE = ('*Результат:*\n\n*Виробник:* {producer}\n*Модель:* {model}\n*Опис:* {description}',
-                  '*Result:*\n\n*Producer:* {producer}\n*Model:* {model}\n*Description:* {description}')
+RESULT_MESSAGE = ('`РЕЗУЛЬТАТ`\n\n*Виробник:* {producer}\n*Модель:* {model}\n*Опис:* {description}',
+                  '`RESULT`\n\n*Producer:* {producer}\n*Model:* {model}\n*Description:* {description}')
 NO_TEXT_MESSAGE = ('Я очікую текст або команду', 'I\'m waiting for some text or command')
 QUESTION_NUMBER_PREFIX = ('Поточне питання: ', 'Current question: ')
 DONE_MESSAGE = ('Готово', 'Done')
@@ -80,7 +82,7 @@ def main():
                 # There is no text in this update
                 expert_bot.send_message(last_chat_id, NO_TEXT_MESSAGE[current_language_id])
 
-            if is_current_user_in_quiz:
+            elif is_current_user_in_quiz:
                 if last_chat_text in LIST_OF_ANSWERS[current_language_id]:
                     question_number = current_step_for_user[last_chat_id]['current_step']
                     expert_system = current_step_for_user[last_chat_id]['expert_class']
