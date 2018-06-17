@@ -1,6 +1,6 @@
 import misc
 from bot import ExpertBotHandler
-from experts import AudioInterface, Soundproofing, Microphone, StudioMonitor, MixingConsole
+from experts import AudioInterface, Soundproofing, Microphone, StudioMonitor, MixingConsole, Software
 
 EQUIPMENTS = ({
         'Аудіо інтерфейс': AudioInterface,
@@ -8,14 +8,14 @@ EQUIPMENTS = ({
         'Мікрофон': Microphone,
         'Студійні монітори': StudioMonitor,
         'Мікшерний пульт': MixingConsole,
-        'Програмне забезпечення': None
+        'Програмне забезпечення': Software
     }, {
         'Audio interface': AudioInterface,
         'Soundproofing': Soundproofing,
         'Microphone': Microphone,
         'Studio monitor': StudioMonitor,
         'Mixing console': MixingConsole,
-        'Software': None
+        'Software': Software
     })
 LIST_OF_ANSWERS = (('Ні', 'Швидше за все - ні', 'Не знаю', 'Швидше за все - так', 'Так'),
                    ('No', 'Probably no', 'Don\'t know', 'Probably', 'Yes'))
