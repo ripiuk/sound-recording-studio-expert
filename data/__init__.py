@@ -29,7 +29,7 @@ def load_data(data_file: str) -> dict:
     if not data_path.exists():
         raise FileNotFoundError(f'Configuration file "{data_path}" not found!')
 
-    with data_path.open() as ecf:
+    with open(data_path, 'r', encoding='utf-8') as ecf:
         extra_conf = yaml.load(ecf.read())
 
     conf.update(extra_conf)
