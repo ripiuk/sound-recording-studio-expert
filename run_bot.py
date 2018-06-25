@@ -27,11 +27,11 @@ HELP_TEXT = (('MusicStudioExpertBot допоможе вам з укомплек�
               'Вам лише необхідно відповісти на поставленні питання.',
               'Щоб обрати категорію введіть команду: /menu',
               'Також данний бот підтримує наступні команди: /start /help /settings',
-              '\n\n[GitHub source](https://github.com/ripiuk)'),
+              '\n\n[GitHub source](https://github.com/ripiuk/sound-recording-studio-expert)'),
              ('MusicStudioExpertBot is a bot, that can help you to provide a home sound recording studio.',
               'To choose a category from menu - use this command: /menu',
               'Also, this bot supports the following commands: /start /help /settings',
-              '\n\n[GitHub source](https://github.com/ripiuk)'))
+              '\n\n[GitHub source](https://github.com/ripiuk/sound-recording-studio-expert)'))
 SETTINGS_TEXT = ('Оберіть мову (лише для навігації)',
                  'Here you can choose a language that you prefer (for navigation only)')
 NOT_AVAILABLE_TEXT = ('Ви не можете використовувати команди під час опитування.',

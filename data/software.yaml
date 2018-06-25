@@ -1,5 +1,10 @@
 questions: [
-  'Вам потрібна дешева цифрова аудіостанція?'
+  'Вам потрібна дешева цифрова аудіостанція?',
+  'Цифрова аудіостанція повинна бути гнучкою в налаштуваннях?',
+  'Цифрова аудіостанція повина працювати з MIDI?',
+  'Цифрова аудіостанція повина працювати на платформі Windows?',
+  'Цифрова аудіостанція повина працювати на платформі OS X?',
+  'Цифрова аудіостанція повина працювати на операційних системах що базуються на ядрі Linux?',
 ]
 
 outcomes: [
@@ -8,7 +13,7 @@ outcomes: [
     producer: Cockos Incorporated,
     model: REAPER,
     image_id: AgADAgAEqTEbNkE5STi6L-tHxBFZRd-3DgAE8kV77A_7bqR6JwACAg,
-    description: "програмне середовище для аудіо виробництва, записи і аудіо інженеринг. Аудіостанція володіє широкими
+    description: "Програмне середовище для аудіо виробництва, записи і аудіо інженеринг. Аудіостанція володіє широкими
                   функціональними можливостями і є розвиненою, професійної робочої системою для створення, запису,
                   редагування і мікшування аудіо і MIDI матеріалу, а також мастерингу композицій. При цьому програма
                   має відносно невеликі розміри. REAPER розробляється компанією Cockos Incorporated, яку в 2004 році
@@ -25,8 +30,28 @@ outcomes: [
     priori_probability: 0.058,
     questions_estimation: {
       1: {
-        probability_in_presence: 0.075,
+        probability_in_presence: 0.9524,
+        probability_in_absence: 0.19123
+      },
+      2: {
+        probability_in_presence: 0.9999999,
+        probability_in_absence: 0.12347
+      },
+      3: {
+        probability_in_presence: 0.98874,
+        probability_in_absence: 0.75618
+      },
+      4: {
+        probability_in_presence: 0.986548,
         probability_in_absence: 0.613
+      },
+      5: {
+        probability_in_presence: 0.987521,
+        probability_in_absence: 0.45187
+      },
+      6: {
+        probability_in_presence: 0.62456,
+        probability_in_absence: 0.32157
       },
     }
   },
